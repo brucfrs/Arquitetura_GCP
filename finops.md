@@ -13,7 +13,7 @@ Boas práticas para otimização de custos na implementação de novos recursos 
 
 &nbsp; &nbsp; •	Consolidar workloads em menos nós para reduzir custos com instâncias.</br>
 
-&nbsp; &nbsp; •	Configurar escalonamento horizontal e vertical para máxima eficiência.</br>
+&nbsp; &nbsp; •	Configurar escalonamento horizontal e vertical para máxima eficiência.</br></br>
 
 <h3>2.2. Compute Engine</h3></br>
 
@@ -27,7 +27,7 @@ Boas práticas para otimização de custos na implementação de novos recursos 
 
 &nbsp; &nbsp; •	Aplicar descontos por uso contínuo (CUDs - Committed Use Discounts).</br>
 
-&nbsp; &nbsp; •	Migrar workloads para máquinas otimizadas para preço/desempenho.</br>
+&nbsp; &nbsp; •	Migrar workloads para máquinas otimizadas para preço/desempenho.</br></br>
 
 <h3>2.3. Cloud SQL</h3></br>
 
