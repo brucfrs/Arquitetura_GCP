@@ -4,13 +4,13 @@ Este repositório contém a documentação e implementação de um projeto de in
 
 <h2>Principais Componentes</h2><br/>
 <b>Dimensionamento de Recursos:</b> Autoscaling de VMs, uso de Kubernetes (GKE) e soluções serverless para otimização de carga.
-FinOps: Monitoramento contínuo de custos, automação de provisionamento e escalabilidade eficiente.
-Topologia de Rede: Configuração de redes públicas e privadas, firewalls, Cloud Armor e Load Balancers.
-Orquestração e Automação: Terraform e Ansible para provisionamento e configuração da infraestrutura.
-Plano de Disaster Recovery (DR): Estratégia de backup, failover e testes periódicos para garantir alta disponibilidade.
-Monitoramento e Observabilidade: Stack de monitoramento para redes e aplicações, incluindo Google Cloud Operations Suite.
-Segurança e Modelo OSI: Aplicação de camadas do modelo OSI para diagnóstico e proteção do tráfego na solução.
-🚀 Tecnologias Utilizadas
+<b>FinOps:</b> Monitoramento contínuo de custos, automação de provisionamento e escalabilidade eficiente.
+<b>Topologia de Rede:</b> Configuração de redes públicas e privadas, firewalls, Cloud Armor e Load Balancers.
+<b>Orquestração e Automação:</b> Terraform e Ansible para provisionamento e configuração da infraestrutura.
+<b>Plano de Disaster Recovery (DR):</b> Estratégia de backup, failover e testes periódicos para garantir alta disponibilidade.
+<b>Monitoramento e Observabilidade:</b> Stack de monitoramento para redes e aplicações, incluindo Google Cloud Operations Suite.<br/>
+
+<h2>Tecnologias Utilizadas</h2><br/>
 Compute Engine, Cloud Run e GKE para execução das aplicações.
 Cloud SQL e Filestore para armazenamento de dados.
 Cloud VPN e Interconnect para integração on-premises.
