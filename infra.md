@@ -23,7 +23,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 &nbsp; &nbsp; •	Ajustar tamanhos de clusters para evitar alocação excessiva de recursos.</br>
 
-Para uma lista mais completa basta clicar [aqui](finops.md#27-cloud-armor).https://github.com/brucfrs/Arquitetura_GCP/blob/main/finops.md#27-cloud-armor
+Para uma lista mais completa basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).
 
 <b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
@@ -44,7 +44,7 @@ Para uma lista mais completa basta clicar [aqui](finops.md#27-cloud-armor).https
 
 &nbsp; &nbsp; •	Implementar desligamento automático de instâncias ociosas.</br>
 
-Para uma lista mais completa basta clicar [aqui](finops.md).
+Para uma lista mais completa basta clicar [aqui](finops.md#22-compute-engine).
 
 <b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
 
@@ -62,6 +62,8 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
 
+Para uma lista mais completa basta clicar [aqui](finops.md#23-cloud-sql).
+
 <b>Escalabilidade:</b> Configurar réplicas de leitura para melhorar desempenho.</br>
 
 <b>Alta Disponibilidade:</b> Ativar alta disponibilidade (HA) e replicação entre regiões.</br></br>
@@ -77,6 +79,8 @@ Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
 <b>FinOps (Otimização de Custos):</b></br>
 
 Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
+
+Para uma lista mais completa basta clicar [aqui](finops.md#24-cloud-storage).
 
 <b>Escalabilidade:</b> Armazenamento ilimitado e replicação automática.</br>
 
@@ -94,6 +98,8 @@ Configurar regras de ciclo de vida para migração automática de classes de arm
 
 Escolher classes Standard para cargas menos exigentes.</br>
 
+Para uma lista mais completa basta clicar [aqui](finops.md#25-filestore).
+
 <b>Escalabilidade:</b> Expandir armazenamento dinamicamente.</br>
 
 <b>Alta Disponibilidade:</b> Configurar redundância e snapshots.</br></br>
@@ -109,6 +115,8 @@ Escolher classes Standard para cargas menos exigentes.</br>
 <b>FinOps (Otimização de Custos):</b></br>
 
 Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
+
+Para uma lista mais completa basta clicar [aqui](finops.md#26-cloud-load-balancing).
 
 <b>Escalabilidade:</b> Configurar autoscaling para suportar variações de tráfego.</br>
 
@@ -126,6 +134,8 @@ Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
 
 Aplicar políticas apenas onde necessário.</br>
 
+Para uma lista mais completa basta clicar [aqui](finops.md#27-cloud-armor).
+
 <b>Escalabilidade:</b> Proteção automática contra tráfego malicioso em grande escala.</br>
 
 <b>Alta Disponibilidade:</b> Configuração integrada ao Load Balancing para proteção contínua.</br></br>
@@ -141,6 +151,8 @@ Aplicar políticas apenas onde necessário.</br>
 <b>FinOps (Otimização de Custos):</b></br>
 
 Avaliar o uso de Interconnect para cargas pesadas.</br>
+
+Para uma lista mais completa basta clicar [aqui](finops.md#28-cloud-vpn).
 
 <b>Escalabilidade:</b> Configurar múltiplos túneis para maior resiliência.</br>
 
@@ -158,6 +170,8 @@ Avaliar o uso de Interconnect para cargas pesadas.</br>
 
 Utilizar registros TTL adequados para evitar consultas excessivas.</br>
 
+Para uma lista mais completa basta clicar [aqui](finops.md#29-cloud-dns).
+
 <b>Escalabilidade:</b> Suporta alto volume de consultas automaticamente.</br>
 
 <b>Alta Disponibilidade:</b> Distribuição em múltiplas regiões para redundância.</br></br>
@@ -173,6 +187,8 @@ Utilizar registros TTL adequados para evitar consultas excessivas.</br>
 <b>FinOps (Otimização de Custos):</b></br>
 
 Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
+
+Para uma lista mais completa basta clicar [aqui](finops.md#210-cloud-key-management-kms).
 
 <b>Escalabilidade:</b> Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
 
@@ -190,6 +206,8 @@ Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
 
 Configurar retenção de logs apenas pelo período necessário.</br>
 
+Para uma lista mais completa basta clicar [aqui](finops.md#211-cloud-monitoring-e-logging).
+
 <b>Escalabilidade:</b> Ajustar métricas para monitoramento automático.</br>
 
 <b>Alta Disponibilidade:</b> Alertas em tempo real para evitar falhas.</br></br>
@@ -206,6 +224,8 @@ Configurar retenção de logs apenas pelo período necessário.</br>
 
 Usar tabelas externas e modelos de preço adequados.</br>
 
+Para uma lista mais completa basta clicar [aqui](finops.md#212-bigquery).
+
 <b>Escalabilidade:</b> Processamento massivo de dados sem necessidade de provisionamento.</br>
 
 <b>Alta Disponibilidade:</b> Serviço totalmente gerenciado e redundante.</br></br>
@@ -221,6 +241,8 @@ Usar tabelas externas e modelos de preço adequados.</br>
 <b>FinOps (Otimização de Custos):</b></br>
 
 Gerenciamento eficiente dos recursos provisionados.</br>
+
+Para uma lista mais completa basta clicar [aqui](finops.md#213-devops---terraform-e-github).
 
 <b>Escalabilidade:</b> Infraestrutura definida como código, permitindo ajustes dinâmicos.</br>
 
