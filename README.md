@@ -34,7 +34,7 @@ Este repositório contém a documentação detalhada da arquitetura de um projet
 •	Cloud Nat para saida de internet de forma segura para atualização de software e S.O..<br/>
 •	Terraform para automação da infraestrutura.<br/>
 •	Cloud Firewall Rules para liberações e bloqueios de trafegos de redes.<br/>
-•	Cloud KMS para gerenciamento de chaves de criptografia de dados em transito e repouso.
+•	Cloud KMS para gerenciamento de chaves de criptografia de dados em transito e repouso..<br/>
 •	Cloud Logging e Cloud Monitoring para auditoria e monitoramento.<br/>
 •	Big Query e Looker para acompanhamento de custos dos projetos.<br/>
 
