@@ -37,7 +37,7 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
 
-<b>Otimização de Custos:</b></br>
+<b>FinOps (Otimização de Custos):</b></br>
 &nbsp; &nbsp; •	Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
 
 &nbsp; &nbsp; •	Dimensionar máquinas conforme a necessidade real, evitando superprovisionamento.</br>
@@ -58,7 +58,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Ajustar tamanho das instâncias com base na carga de trabalho.</br>
 
-<b>Otimização de Custos:</b> Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
 
 <b>Escalabilidade:</b> Configurar réplicas de leitura para melhorar desempenho.</br>
 
@@ -72,7 +74,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Usar classes de armazenamento adequadas (Standard para acesso frequente, Nearline para acesso esporádico, Coldline para backup).</br>
 
-<b>Otimização de Custos:</b> Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
 
 <b>Escalabilidade:</b> Armazenamento ilimitado e replicação automática.</br>
 
@@ -86,7 +90,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Utilizar classes de alto desempenho (Enterprise para baixa latência).</br>
 
-<b>Otimização de Custos:</b> Escolher classes Standard para cargas menos exigentes.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Escolher classes Standard para cargas menos exigentes.</br>
 
 <b>Escalabilidade:</b> Expandir armazenamento dinamicamente.</br>
 
@@ -100,7 +106,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Usar balanceamento global para menor latência.</br>
 
-<b>Otimização de Custos:</b> Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
 
 <b>Escalabilidade:</b> Configurar autoscaling para suportar variações de tráfego.</br>
 
@@ -114,7 +122,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Configurar regras para mitigar ataques sem impactar usuários legítimos.</br>
 
-<b>Otimização de Custos:</b> Aplicar políticas apenas onde necessário.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Aplicar políticas apenas onde necessário.</br>
 
 <b>Escalabilidade:</b> Proteção automática contra tráfego malicioso em grande escala.</br>
 
@@ -128,7 +138,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Usar VPN HA para maior largura de banda.</br>
 
-<b>Otimização de Custos:</b> Avaliar o uso de Interconnect para cargas pesadas.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Avaliar o uso de Interconnect para cargas pesadas.</br>
 
 <b>Escalabilidade:</b> Configurar múltiplos túneis para maior resiliência.</br>
 
@@ -142,7 +154,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Resolver DNS com baixa latência globalmente.</br>
 
-<b>Otimização de Custos:</b> Utilizar registros TTL adequados para evitar consultas excessivas.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Utilizar registros TTL adequados para evitar consultas excessivas.</br>
 
 <b>Escalabilidade:</b> Suporta alto volume de consultas automaticamente.</br>
 
@@ -156,7 +170,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Integrar com serviços do Google Cloud para baixa latência.</br>
 
-<b>Otimização de Custos:</b> Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
 
 <b>Escalabilidade:</b> Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
 
@@ -170,7 +186,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Criar dashboards personalizados para insights em tempo real.</br>
 
-<b>Otimização de Custos:</b> Configurar retenção de logs apenas pelo período necessário.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Configurar retenção de logs apenas pelo período necessário.</br>
 
 <b>Escalabilidade:</b> Ajustar métricas para monitoramento automático.</br>
 
@@ -184,7 +202,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Otimizar consultas usando partições e clustering.</br>
 
-<b>Otimização de Custos:</b> Usar tabelas externas e modelos de preço adequados.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Usar tabelas externas e modelos de preço adequados.</br>
 
 <b>Escalabilidade:</b> Processamento massivo de dados sem necessidade de provisionamento.</br>
 
@@ -198,7 +218,9 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Performance:</b> Automação de deploys para redução de tempo de provisionamento.</br>
 
-<b>Otimização de Custos:</b> Gerenciamento eficiente dos recursos provisionados.</br>
+<b>FinOps (Otimização de Custos):</b></br>
+
+Gerenciamento eficiente dos recursos provisionados.</br>
 
 <b>Escalabilidade:</b> Infraestrutura definida como código, permitindo ajustes dinâmicos.</br>
 
