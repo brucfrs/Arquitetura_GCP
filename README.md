@@ -25,12 +25,14 @@ Este repositório contém a documentação detalhada da arquitetura de um projet
 
 
 <h2>Tecnologias Utilizadas</h2><br/>
-* Compute Engine e GKE para execução das aplicações.<br/>
-Cloud SQL e Filestore e Cloud Storage para armazenamento de dados.<br/>
-Cloud VPN e/ou Interconnect para integração on-premises.<br/>
-Terraform para automação da infraestrutura.<br/>
-Cloud Armor e IAM para segurança da aplicação e controle de acesso.<br/>
-Cloud KMS para gerenciamento de chaves de criptografia de dados em transito e repouso.
+•	Compute Engine e GKE para execução das aplicações.<br/>
+•	Cloud SQL e Filestore e Cloud Storage para armazenamento de dados.<br/>
+•	Cloud VPN e/ou Interconnect para integração on-premises.<br/>
+•	Terraform para automação da infraestrutura.<br/>
+•	Cloud Armor e IAM para segurança da aplicação e controle de acesso.<br/>
+•	Cloud KMS para gerenciamento de chaves de criptografia de dados em transito e repouso.
+
+
 
 
 [Visão geral do projeto](README.md)
