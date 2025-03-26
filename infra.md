@@ -23,7 +23,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 &nbsp; &nbsp; •	Ajustar tamanhos de clusters para evitar alocação excessiva de recursos.</br>
 
-Para uma lista mais completa basta clicar [aqui](finops.md).
+Para uma lista mais completa basta clicar [aqui](finops.md#22-compute-engine).
 
 <b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
