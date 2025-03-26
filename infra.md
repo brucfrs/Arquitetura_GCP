@@ -22,9 +22,11 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 &nbsp;    • <b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
 
+&nbsp; &nbsp; Para uma lista mais completa sobre boas praticas de segurança, performance, escalabilidade e alta disponibilidade basta clicar [aqui](best_practices.md#21-google-kubernetes-engine-gke).</br>
+
 &nbsp;    • <b>FinOps (Otimização de Custos):</b> Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br> 
 
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).</br>
+&nbsp; &nbsp; Para uma lista mais completa sobre otimização de custo basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).</br>
 
 <h3>2.2. Compute Engine</h3></br>
 
