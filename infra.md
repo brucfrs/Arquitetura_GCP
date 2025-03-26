@@ -12,17 +12,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Serviço gerenciado de Kubernetes para orquestração de contêineres.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;<b>Segurança:</b> </br>
 
-<b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
+&nbsp;<b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
 
-<b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
+&nbsp;<b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
-<b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
+&nbsp;<b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
 
-<b>FinOps (Otimização de Custos):</b> Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br> 
+&nbsp;<b>FinOps (Otimização de Custos):</b> Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br> 
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).</br>
 
