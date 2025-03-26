@@ -1,5 +1,5 @@
 <h1><center>FinOps (Otimização de Custos)</center></h1></br>
-Boas práticas para otimização de custos na implementação de novos recursos do Google Cloud e melhorias emcima de recursos já existentes, desde que não afete outros critérios com maior prioridade.</center></h1></br>
+Boas práticas para otimização de custos na implementação de novos recursos do Google Cloud e melhorias em cima de recursos já existentes, desde que não afete outros critérios com maior prioridade.</center></h1></br>
 
 <h3>2.1. Google Kubernetes Engine (GKE)</h3></br>
 
