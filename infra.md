@@ -30,17 +30,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Máquinas virtuais para cargas de trabalho personalizadas.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
+&nbsp;    • <b>Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
 
-<b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
+&nbsp;    • <b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
 
-<b>Alta Disponibilidade:</b> Distribuir instâncias entre múltiplas zonas.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Distribuir instâncias entre múltiplas zonas.</br></br>
 
-<b>FinOps (Otimização de Custos):</b>Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b>Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#22-compute-engine).
 
@@ -48,17 +48,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Banco de dados gerenciado (PostgreSQL, MySQL, SQL Server).</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Ajustar tamanho das instâncias com base na carga de trabalho.</br>
+&nbsp;    • <b>Performance:</b> Ajustar tamanho das instâncias com base na carga de trabalho.</br>
 
-<b>Escalabilidade:</b> Configurar réplicas de leitura para melhorar desempenho.</br>
+&nbsp;    • <b>Escalabilidade:</b> Configurar réplicas de leitura para melhorar desempenho.</br>
 
-<b>Alta Disponibilidade:</b> Ativar alta disponibilidade (HA) e replicação entre regiões.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Ativar alta disponibilidade (HA) e replicação entre regiões.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#23-cloud-sql).
 
@@ -66,17 +66,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Armazenamento de objetos escalável.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Usar classes de armazenamento adequadas (Standard para acesso frequente, Nearline para acesso esporádico, Coldline para backup).</br>
+&nbsp;    • <b>Performance:</b> Usar classes de armazenamento adequadas (Standard para acesso frequente, Nearline para acesso esporádico, Coldline para backup).</br>
 
-<b>Escalabilidade:</b> Armazenamento ilimitado e replicação automática.</br>
+&nbsp;    • <b>Escalabilidade:</b> Armazenamento ilimitado e replicação automática.</br>
 
-<b>Alta Disponibilidade:</b> Ativar replicação multi-região para redundância.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Ativar replicação multi-região para redundância.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#24-cloud-storage).
 
@@ -84,17 +84,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Serviço de armazenamento de arquivos compartilhado via NFS.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Utilizar classes de alto desempenho (Enterprise para baixa latência).</br>
+&nbsp;    • <b>Performance:</b> Utilizar classes de alto desempenho (Enterprise para baixa latência).</br>
 
-<b>Escalabilidade:</b> Expandir armazenamento dinamicamente.</br>
+&nbsp;    • <b>Escalabilidade:</b> Expandir armazenamento dinamicamente.</br>
 
-<b>Alta Disponibilidade:</b> Configurar redundância e snapshots.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Configurar redundância e snapshots.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Escolher classes Standard para cargas menos exigentes.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Escolher classes Standard para cargas menos exigentes.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#25-filestore).
 
@@ -102,17 +102,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Balanceador de carga global para distribuir tráfego.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Usar balanceamento global para menor latência.</br>
+&nbsp;    • <b>Performance:</b> Usar balanceamento global para menor latência.</br>
 
-<b>Escalabilidade:</b> Configurar autoscaling para suportar variações de tráfego.</br>
+&nbsp;    • <b>Escalabilidade:</b> Configurar autoscaling para suportar variações de tráfego.</br>
 
-<b>Alta Disponibilidade:</b> Implementar em múltiplas regiões para failover automático.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Implementar em múltiplas regiões para failover automático.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#26-cloud-load-balancing).
 
@@ -120,17 +120,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Firewall para proteger contra ataques DDoS e outras ameaças.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Configurar regras para mitigar ataques sem impactar usuários legítimos.</br>
+&nbsp;    • <b>Performance:</b> Configurar regras para mitigar ataques sem impactar usuários legítimos.</br>
 
-<b>Escalabilidade:</b> Proteção automática contra tráfego malicioso em grande escala.</br>
+&nbsp;    • <b>Escalabilidade:</b> Proteção automática contra tráfego malicioso em grande escala.</br>
 
-<b>Alta Disponibilidade:</b> Configuração integrada ao Load Balancing para proteção contínua.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Configuração integrada ao Load Balancing para proteção contínua.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Aplicar políticas apenas onde necessário.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Aplicar políticas apenas onde necessário.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#27-cloud-armor).
 
@@ -138,17 +138,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Conexão segura entre on-premises e Google Cloud.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Usar VPN HA para maior largura de banda.</br>
+&nbsp;    • <b>Performance:</b> Usar VPN HA para maior largura de banda.</br>
 
-<b>Escalabilidade:</b> Configurar múltiplos túneis para maior resiliência.</br>
+&nbsp;    • <b>Escalabilidade:</b> Configurar múltiplos túneis para maior resiliência.</br>
 
-<b>Alta Disponibilidade:</b> Implementar failover automático.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Implementar failover automático.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Avaliar o uso de Interconnect para cargas pesadas.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Avaliar o uso de Interconnect para cargas pesadas.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#28-cloud-vpn).
 
@@ -156,17 +156,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Serviço gerenciado de DNS.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Resolver DNS com baixa latência globalmente.</br>
+&nbsp;    • <b>Performance:</b> Resolver DNS com baixa latência globalmente.</br>
 
-<b>Escalabilidade:</b> Suporta alto volume de consultas automaticamente.</br>
+&nbsp;    • <b>Escalabilidade:</b> Suporta alto volume de consultas automaticamente.</br>
 
-<b>Alta Disponibilidade:</b> Distribuição em múltiplas regiões para redundância.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Distribuição em múltiplas regiões para redundância.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Utilizar registros TTL adequados para evitar consultas excessivas.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Utilizar registros TTL adequados para evitar consultas excessivas.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#29-cloud-dns).
 
@@ -174,17 +174,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Gerenciamento de chaves de criptografia.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Integrar com serviços do Google Cloud para baixa latência.</br>
+&nbsp;    • <b>Performance:</b> Integrar com serviços do Google Cloud para baixa latência.</br>
 
-<b>Escalabilidade:</b> Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
+&nbsp;    • <b>Escalabilidade:</b> Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
 
-<b>Alta Disponibilidade:</b> Replicação automática das chaves.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Replicação automática das chaves.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#210-cloud-key-management-kms).
 
@@ -192,17 +192,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Solução de monitoramento e análise de logs.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Criar dashboards personalizados para insights em tempo real.</br>
+&nbsp;    • <b>Performance:</b> Criar dashboards personalizados para insights em tempo real.</br>
 
-<b>Escalabilidade:</b> Ajustar métricas para monitoramento automático.</br>
+&nbsp;    • <b>Escalabilidade:</b> Ajustar métricas para monitoramento automático.</br>
 
-<b>Alta Disponibilidade:</b> Alertas em tempo real para evitar falhas.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Alertas em tempo real para evitar falhas.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Configurar retenção de logs apenas pelo período necessário.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Configurar retenção de logs apenas pelo período necessário.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#211-cloud-monitoring-e-logging).
 
@@ -210,17 +210,17 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Data warehouse serverless para análise de grandes volumes de dados.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Otimizar consultas usando partições e clustering.</br>
+&nbsp;    • <b>Performance:</b> Otimizar consultas usando partições e clustering.</br>
 
-<b>Escalabilidade:</b> Processamento massivo de dados sem necessidade de provisionamento.</br>
+&nbsp;    • <b>Escalabilidade:</b> Processamento massivo de dados sem necessidade de provisionamento.</br>
 
-<b>Alta Disponibilidade:</b> Serviço totalmente gerenciado e redundante.</br></br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Serviço totalmente gerenciado e redundante.</br></br>
 
-<b>FinOps (Otimização de Custos):</b> Usar tabelas externas e modelos de preço adequados.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Usar tabelas externas e modelos de preço adequados.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#212-bigquery).
 
@@ -228,16 +228,16 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Descrição:</b> Infraestrutura como Código (IaC) e versionamento.</br>
 
-<h4>Melhores Práticas:</h4></br>
+<h4>Melhores Práticas:</h4>
 
-<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
-<b>Performance:</b> Automação de deploys para redução de tempo de provisionamento.</br>
+&nbsp;    • <b>Performance:</b> Automação de deploys para redução de tempo de provisionamento.</br>
 
-<b>Escalabilidade:</b> Infraestrutura definida como código, permitindo ajustes dinâmicos.</br>
+&nbsp;    • <b>Escalabilidade:</b> Infraestrutura definida como código, permitindo ajustes dinâmicos.</br>
 
-<b>Alta Disponibilidade:</b> Pipelines automatizados para recuperação rápida de falhas.</br>
+&nbsp;    • <b>Alta Disponibilidade:</b> Pipelines automatizados para recuperação rápida de falhas.</br>
 
-<b>FinOps (Otimização de Custos):</b> Gerenciamento eficiente dos recursos provisionados.</br>
+&nbsp;    • <b>FinOps (Otimização de Custos):</b> Gerenciamento eficiente dos recursos provisionados.</br>
 
 &nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#213-devops---terraform-e-github).
