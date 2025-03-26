@@ -1,11 +1,11 @@
-README.md - Visão geral do projeto.
+[Visão geral do projeto](README.md)
 
 [Documentação da infraestrutura](infra.md)
 
-finops.md - Estratégia de FinOps.
+[Estratégia de FinOps](finops.md)
 
-automation.md - Estratégia de Automação.
+[Estratégia de Automação](automation.md)
 
-disaster_recovery.md - Plano de Disaster Recovery.
+[Plano de Disaster Recovery](disaster_recovery.md)
 
-monitoring.md - Estratégia de Monitoramento e Observabilidade.
+[Estratégia de Monitoramento e Observabilidade](monitoring.md)
