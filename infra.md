@@ -6,23 +6,23 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <img src="GCP - Infra.png" alt="Diagrama de infraestrutura" /></br>
 
-2. Recursos Utilizados</br>
+<h1><center>2. Recursos Utilizados</center></h1></br>
 
-2.1. Google Kubernetes Engine (GKE)</br>
+<h2>2.1. Google Kubernetes Engine (GKE)</h2></br>
 
-Descrição: Serviço gerenciado de Kubernetes para orquestração de contêineres.</br>
+<b>Descrição:</b> Serviço gerenciado de Kubernetes para orquestração de contêineres.</br>
 
-Melhores Práticas:</br>
+<b>Melhores Práticas:</b></br>
 
-Performance: Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
+<b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
 
-Otimização de Custos: Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
+<b>Otimização de Custos:</b> Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
 
-Escalabilidade: Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
+<b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
-Alta Disponibilidade: Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
+<b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
 
-2.2. Compute Engine</br>
+<h2>2.2. Compute Engine</h2></br>
 
 Descrição: Máquinas virtuais para cargas de trabalho personalizadas.</br>
 
