@@ -21,11 +21,11 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 &nbsp; &nbsp; •	Usar instâncias Spot para workloads tolerantes a falhas.</br>
 
-•	Ajustar tamanhos de clusters para evitar alocação excessiva de recursos.</br>
+&nbsp; &nbsp; •	Ajustar tamanhos de clusters para evitar alocação excessiva de recursos.</br>
 
-•	Consolidar workloads em menos nós para reduzir custos com instâncias.</br>
+&nbsp; &nbsp; •	Consolidar workloads em menos nós para reduzir custos com instâncias.</br>
 
-•	Configurar escalonamento horizontal e vertical para máxima eficiência.</br>
+&nbsp; &nbsp; •	Configurar escalonamento horizontal e vertical para máxima eficiência.</br>
 
 <b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
@@ -39,7 +39,16 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
 
-<b>Otimização de Custos:</b> Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
+<b>Otimização de Custos:</b></br>
+&nbsp; &nbsp; •	Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
+
+&nbsp; &nbsp; •	Dimensionar máquinas conforme a necessidade real, evitando superprovisionamento.</br>
+
+&nbsp; &nbsp; •	Implementar desligamento automático de instâncias ociosas.</br>
+
+&nbsp; &nbsp; •	Aplicar descontos por uso contínuo (CUDs - Committed Use Discounts).</br>
+
+&nbsp; &nbsp; •	Migrar workloads para máquinas otimizadas para preço/desempenho.</br>
 
 <b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
 
