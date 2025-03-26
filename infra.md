@@ -20,7 +20,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
-<b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
+<b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br></br>
 
 <h3>2.2. Compute Engine</h3></br>
 
@@ -28,13 +28,13 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <h4>Melhores Práticas:</h4></br>
 
-<b><Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
+<b>Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
 
 <b>Otimização de Custos:</b> Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
 
 <b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
 
-<b>Alta Disponibilidade:</b> Distribuir instâncias entre múltiplas zonas.</br>
+<b>Alta Disponibilidade:</b> Distribuir instâncias entre múltiplas zonas.</br></br>
 
 <h3>2.3. Cloud SQL</h3></br>
 
@@ -48,7 +48,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Configurar réplicas de leitura para melhorar desempenho.</br>
 
-<b>Alta Disponibilidade:</b> Ativar alta disponibilidade (HA) e replicação entre regiões.</br>
+<b>Alta Disponibilidade:</b> Ativar alta disponibilidade (HA) e replicação entre regiões.</br></br>
 
 <h3>2.4. Cloud Storage</h3></br>
 
@@ -62,7 +62,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Armazenamento ilimitado e replicação automática.</br>
 
-<b>Alta Disponibilidade:</b> Ativar replicação multi-região para redundância.</br>
+<b>Alta Disponibilidade:</b> Ativar replicação multi-região para redundância.</br></br>
 
 <h3>2.5. Filestore</h3></br>
 
@@ -76,7 +76,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Expandir armazenamento dinamicamente.</br>
 
-<b>Alta Disponibilidade:</b> Configurar redundância e snapshots.</br>
+<b>Alta Disponibilidade:</b> Configurar redundância e snapshots.</br></br>
 
 <h3>2.6. Cloud Load Balancing</h3></br>
 
@@ -90,7 +90,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Configurar autoscaling para suportar variações de tráfego.</br>
 
-<b>Alta Disponibilidade:</b> Implementar em múltiplas regiões para failover automático.</br>
+<b>Alta Disponibilidade:</b> Implementar em múltiplas regiões para failover automático.</br></br>
 
 <h3>2.7. Cloud Armor</h3></br>
 
@@ -104,7 +104,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Proteção automática contra tráfego malicioso em grande escala.</br>
 
-<b>Alta Disponibilidade:</b> Configuração integrada ao Load Balancing para proteção contínua.</br>
+<b>Alta Disponibilidade:</b> Configuração integrada ao Load Balancing para proteção contínua.</br></br>
 
 <h3>2.8. Cloud VPN</h3></br>
 
@@ -118,7 +118,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Configurar múltiplos túneis para maior resiliência.</br>
 
-<b>Alta Disponibilidade:</b> Implementar failover automático.</br>
+<b>Alta Disponibilidade:</b> Implementar failover automático.</br></br>
 
 <h3>2.9. Cloud DNS</h3></br>
 
@@ -132,7 +132,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Suporta alto volume de consultas automaticamente.</br>
 
-<b>Alta Disponibilidade:</b> Distribuição em múltiplas regiões para redundância.</br>
+<b>Alta Disponibilidade:</b> Distribuição em múltiplas regiões para redundância.</br></br>
 
 <h3>2.10. Cloud Key Management (KMS)</h3></br>
 
@@ -146,7 +146,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
 
-<b>Alta Disponibilidade:</b> Replicação automática das chaves.</br>
+<b>Alta Disponibilidade:</b> Replicação automática das chaves.</br></br>
 
 <h3>2.11. Cloud Monitoring e Logging</h3></br>
 
@@ -160,7 +160,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Ajustar métricas para monitoramento automático.</br>
 
-<b>Alta Disponibilidade:</b> Alertas em tempo real para evitar falhas.</br>
+<b>Alta Disponibilidade:</b> Alertas em tempo real para evitar falhas.</br></br>
 
 <h3>2.12. BigQuery</h3></br>
 
@@ -174,7 +174,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Escalabilidade:</b> Processamento massivo de dados sem necessidade de provisionamento.</br>
 
-<b>Alta Disponibilidade:</b> Serviço totalmente gerenciado e redundante.</br>
+<b>Alta Disponibilidade:</b> Serviço totalmente gerenciado e redundante.</br></br>
 
 <h3>2.13. DevOps - Terraform e GitHub</h3></br>
 
