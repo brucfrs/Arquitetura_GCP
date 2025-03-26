@@ -8,7 +8,8 @@ Este repositório contém a documentação e implementação de um projeto de in
 <b>Topologia de Rede:</b> Configuração de redes públicas e privadas, firewalls, Cloud Armor e Load Balancers.<br/>
 <b>Orquestração e Automação:</b> Terraform e Ansible para provisionamento e configuração da infraestrutura.<br/>
 <b>Plano de Disaster Recovery (DR):</b> Estratégia de backup, failover e testes periódicos para garantir alta disponibilidade.<br/>
-<b>[Estratégia de Monitoramento e Observabilidade](monitoring.md)</b> Stack de monitoramento para redes e aplicações, incluindo Google Cloud Operations Suite.<br/>
+<b>[Estratégia de Monitoramento e Observabilidade](monitoring.md)</b> 
+Stack de monitoramento para redes e aplicações, incluindo Google Cloud Operations Suite.<br/>
 
 
 <h2>Tecnologias Utilizadas</h2><br/>
