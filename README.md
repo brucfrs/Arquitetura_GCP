@@ -2,8 +2,8 @@
 
 Este repositório contém a documentação e implementação de um projeto de infraestrutura no Google Cloud Platform (GCP), utilizando boas práticas de escalabilidade, segurança e otimização de custos. O objetivo é criar um ambiente eficiente, resiliente e automatizado, garantindo integração on-premises e cloud, além de uma estratégia robusta de Disaster Recovery.
 
-<h2>Principais Componentes<h2><br/>
-<b>Dimensionamento de Recursos:</h2>b Autoscaling de VMs, uso de Kubernetes (GKE) e soluções serverless para otimização de carga.
+<h2>Principais Componentes</h2><br/>
+<b>Dimensionamento de Recursos:</b> Autoscaling de VMs, uso de Kubernetes (GKE) e soluções serverless para otimização de carga.
 FinOps: Monitoramento contínuo de custos, automação de provisionamento e escalabilidade eficiente.
 Topologia de Rede: Configuração de redes públicas e privadas, firewalls, Cloud Armor e Load Balancers.
 Orquestração e Automação: Terraform e Ansible para provisionamento e configuração da infraestrutura.
