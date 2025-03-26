@@ -26,7 +26,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 Descrição: Máquinas virtuais para cargas de trabalho personalizadas.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
 
@@ -40,7 +40,7 @@ Alta Disponibilidade: Distribuir instâncias entre múltiplas zonas.</br>
 
 Descrição: Banco de dados gerenciado (PostgreSQL, MySQL, SQL Server).</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Ajustar tamanho das instâncias com base na carga de trabalho.</br>
 
@@ -54,7 +54,7 @@ Alta Disponibilidade: Ativar alta disponibilidade (HA) e replicação entre regi
 
 Descrição: Armazenamento de objetos escalável.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Usar classes de armazenamento adequadas (Standard para acesso frequente, Nearline para acesso esporádico, Coldline para backup).</br>
 
@@ -68,7 +68,7 @@ Alta Disponibilidade: Ativar replicação multi-região para redundância.</br>
 
 Descrição: Serviço de armazenamento de arquivos compartilhado via NFS.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Utilizar classes de alto desempenho (Enterprise para baixa latência).</br>
 
@@ -82,7 +82,7 @@ Alta Disponibilidade: Configurar redundância e snapshots.</br>
 
 Descrição: Balanceador de carga global para distribuir tráfego.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Usar balanceamento global para menor latência.</br>
 
@@ -96,7 +96,7 @@ Alta Disponibilidade: Implementar em múltiplas regiões para failover automáti
 
 Descrição: Firewall para proteger contra ataques DDoS e outras ameaças.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Configurar regras para mitigar ataques sem impactar usuários legítimos.</br>
 
@@ -110,7 +110,7 @@ Alta Disponibilidade: Configuração integrada ao Load Balancing para proteção
 
 Descrição: Conexão segura entre on-premises e Google Cloud.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Usar VPN HA para maior largura de banda.</br>
 
@@ -124,7 +124,7 @@ Alta Disponibilidade: Implementar failover automático.</br>
 
 Descrição: Serviço gerenciado de DNS.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Resolver DNS com baixa latência globalmente.</br>
 
@@ -138,7 +138,7 @@ Alta Disponibilidade: Distribuição em múltiplas regiões para redundância.</
 
 Descrição: Gerenciamento de chaves de criptografia.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Integrar com serviços do Google Cloud para baixa latência.</br>
 
@@ -152,7 +152,7 @@ Alta Disponibilidade: Replicação automática das chaves.</br>
 
 Descrição: Solução de monitoramento e análise de logs.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Criar dashboards personalizados para insights em tempo real.</br>
 
@@ -166,7 +166,7 @@ Alta Disponibilidade: Alertas em tempo real para evitar falhas.</br>
 
 Descrição: Data warehouse serverless para análise de grandes volumes de dados.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Otimizar consultas usando partições e clustering.</br>
 
@@ -180,7 +180,7 @@ Alta Disponibilidade: Serviço totalmente gerenciado e redundante.</br>
 
 Descrição: Infraestrutura como Código (IaC) e versionamento.</br>
 
-Melhores Práticas:</br>
+<h4>Melhores Práticas:</h4></br>
 
 Performance: Automação de deploys para redução de tempo de provisionamento.</br>
 
