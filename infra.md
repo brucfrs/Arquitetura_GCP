@@ -4,7 +4,189 @@
 
 Este documento apresenta os recursos do Google Cloud utilizados na arquitetura apresentada na imagem e discute as melhores práticas para cada um em termos de performance, otimização de custos, escalabilidade e alta disponibilidade.</br>
 
-<img src="GCP - Infra.png" alt="Diagrama de infraestrutura" />
+<img src="GCP - Infra.png" alt="Diagrama de infraestrutura" /></br>
 
+2. Recursos Utilizados</br>
 
+2.1. Google Kubernetes Engine (GKE)</br>
+
+Descrição: Serviço gerenciado de Kubernetes para orquestração de contêineres.</br>
+
+Melhores Práticas:</br>
+
+Performance: Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
+
+Otimização de Custos: Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
+
+Escalabilidade: Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
+
+Alta Disponibilidade: Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
+
+2.2. Compute Engine</br>
+
+Descrição: Máquinas virtuais para cargas de trabalho personalizadas.</br>
+
+Melhores Práticas:</br>
+
+Performance: Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
+
+Otimização de Custos: Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
+
+Escalabilidade: Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
+
+Alta Disponibilidade: Distribuir instâncias entre múltiplas zonas.</br>
+
+2.3. Cloud SQL</br>
+
+Descrição: Banco de dados gerenciado (PostgreSQL, MySQL, SQL Server).</br>
+
+Melhores Práticas:</br>
+
+Performance: Ajustar tamanho das instâncias com base na carga de trabalho.</br>
+
+Otimização de Custos: Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
+
+Escalabilidade: Configurar réplicas de leitura para melhorar desempenho.</br>
+
+Alta Disponibilidade: Ativar alta disponibilidade (HA) e replicação entre regiões.</br>
+
+2.4. Cloud Storage</br>
+
+Descrição: Armazenamento de objetos escalável.</br>
+
+Melhores Práticas:</br>
+
+Performance: Usar classes de armazenamento adequadas (Standard para acesso frequente, Nearline para acesso esporádico, Coldline para backup).</br>
+
+Otimização de Custos: Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
+
+Escalabilidade: Armazenamento ilimitado e replicação automática.</br>
+
+Alta Disponibilidade: Ativar replicação multi-região para redundância.</br>
+
+2.5. Filestore</br>
+
+Descrição: Serviço de armazenamento de arquivos compartilhado via NFS.</br>
+
+Melhores Práticas:</br>
+
+Performance: Utilizar classes de alto desempenho (Enterprise para baixa latência).</br>
+
+Otimização de Custos: Escolher classes Standard para cargas menos exigentes.</br>
+
+Escalabilidade: Expandir armazenamento dinamicamente.</br>
+
+Alta Disponibilidade: Configurar redundância e snapshots.</br>
+
+2.6. Cloud Load Balancing</br>
+
+Descrição: Balanceador de carga global para distribuir tráfego.</br>
+
+Melhores Práticas:</br>
+
+Performance: Usar balanceamento global para menor latência.</br>
+
+Otimização de Custos: Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
+
+Escalabilidade: Configurar autoscaling para suportar variações de tráfego.</br>
+
+Alta Disponibilidade: Implementar em múltiplas regiões para failover automático.</br>
+
+2.7. Cloud Armor</br>
+
+Descrição: Firewall para proteger contra ataques DDoS e outras ameaças.</br>
+
+Melhores Práticas:</br>
+
+Performance: Configurar regras para mitigar ataques sem impactar usuários legítimos.</br>
+
+Otimização de Custos: Aplicar políticas apenas onde necessário.</br>
+
+Escalabilidade: Proteção automática contra tráfego malicioso em grande escala.</br>
+
+Alta Disponibilidade: Configuração integrada ao Load Balancing para proteção contínua.</br>
+
+2.8. Cloud VPN</br>
+
+Descrição: Conexão segura entre on-premises e Google Cloud.</br>
+
+Melhores Práticas:</br>
+
+Performance: Usar VPN HA para maior largura de banda.</br>
+
+Otimização de Custos: Avaliar o uso de Interconnect para cargas pesadas.</br>
+
+Escalabilidade: Configurar múltiplos túneis para maior resiliência.</br>
+
+Alta Disponibilidade: Implementar failover automático.</br>
+
+2.9. Cloud DNS</br>
+
+Descrição: Serviço gerenciado de DNS.</br>
+
+Melhores Práticas:</br>
+
+Performance: Resolver DNS com baixa latência globalmente.</br>
+
+Otimização de Custos: Utilizar registros TTL adequados para evitar consultas excessivas.</br>
+
+Escalabilidade: Suporta alto volume de consultas automaticamente.</br>
+
+Alta Disponibilidade: Distribuição em múltiplas regiões para redundância.</br>
+
+2.10. Cloud Key Management (KMS)</br>
+
+Descrição: Gerenciamento de chaves de criptografia.</br>
+
+Melhores Práticas:</br>
+
+Performance: Integrar com serviços do Google Cloud para baixa latência.</br>
+
+Otimização de Custos: Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
+
+Escalabilidade: Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
+
+Alta Disponibilidade: Replicação automática das chaves.</br>
+
+2.11. Cloud Monitoring e Logging</br>
+
+Descrição: Solução de monitoramento e análise de logs.</br>
+
+Melhores Práticas:</br>
+
+Performance: Criar dashboards personalizados para insights em tempo real.</br>
+
+Otimização de Custos: Configurar retenção de logs apenas pelo período necessário.</br>
+
+Escalabilidade: Ajustar métricas para monitoramento automático.</br>
+
+Alta Disponibilidade: Alertas em tempo real para evitar falhas.</br>
+
+2.12. BigQuery</br>
+
+Descrição: Data warehouse serverless para análise de grandes volumes de dados.</br>
+
+Melhores Práticas:</br>
+
+Performance: Otimizar consultas usando partições e clustering.</br>
+
+Otimização de Custos: Usar tabelas externas e modelos de preço adequados.</br>
+
+Escalabilidade: Processamento massivo de dados sem necessidade de provisionamento.</br>
+
+Alta Disponibilidade: Serviço totalmente gerenciado e redundante.</br>
+
+2.13. DevOps - Terraform e GitHub</br>
+
+Descrição: Infraestrutura como Código (IaC) e versionamento.</br>
+
+Melhores Práticas:</br>
+
+Performance: Automação de deploys para redução de tempo de provisionamento.</br>
+
+Otimização de Custos: Gerenciamento eficiente dos recursos provisionados.</br>
+
+Escalabilidade: Infraestrutura definida como código, permitindo ajustes dinâmicos.</br>
+
+Alta Disponibilidade: Pipelines automatizados para recuperação rápida de falhas.</br>
 
