@@ -14,7 +14,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;<b>Segurança:</b> </br>
+&nbsp;    • <b>Segurança:</b> </br>
 
 &nbsp;    • <b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
 
