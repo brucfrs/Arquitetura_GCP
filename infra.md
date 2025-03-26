@@ -6,9 +6,9 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <img src="GCP - Infra.png" alt="Diagrama de infraestrutura" /></br>
 
-<h1><center>2. Recursos Utilizados</center></h1></br>
+<h2><center>2. Recursos Utilizados</center></h2></br>
 
-<h2>2.1. Google Kubernetes Engine (GKE)</h2></br>
+<h3>2.1. Google Kubernetes Engine (GKE)</h3></br>
 
 <b>Descrição:</b> Serviço gerenciado de Kubernetes para orquestração de contêineres.</br>
 
@@ -22,7 +22,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
 
-<h2>2.2. Compute Engine</h2></br>
+<h3>2.2. Compute Engine</h3></br>
 
 Descrição: Máquinas virtuais para cargas de trabalho personalizadas.</br>
 
