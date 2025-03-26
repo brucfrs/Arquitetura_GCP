@@ -17,7 +17,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 <b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
 
 <b>Otimização de Custos:</b></br>
-&nbsp •	Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
+&nbsp; •	Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
 
 &nbsp •	Usar instâncias Spot para workloads tolerantes a falhas.</br>
 
