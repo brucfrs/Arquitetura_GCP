@@ -1,4 +1,4 @@
-<h1><center>Projeto de Infraestrutura em Google Cloud Platform (GCP)</center>center</h1>
+<h1><center>Projeto de Infraestrutura em Google Cloud Platform (GCP)</center></h1>
 
 Este repositório contém a documentação detalhada da arquitetura de um projeto de infraestrutura no Google Cloud Platform (GCP) para o ambiente de produção, utilizando boas práticas de escalabilidade, alta disponibilidade, segurança e otimização de custos. O objetivo é criar um ambiente eficiente, resiliente e automatizado, garantindo integração on-premises e cloud, além de uma estratégia robusta de Disaster Recovery.
 
@@ -31,11 +31,6 @@ Este repositório contém a documentação detalhada da arquitetura de um projet
 •	Terraform para automação da infraestrutura.<br/>
 •	Cloud Armor e IAM para segurança da aplicação e controle de acesso.<br/>
 •	Cloud KMS para gerenciamento de chaves de criptografia de dados em transito e repouso.
-
-
-
-
-[Visão geral do projeto](README.md)
 
 
 
