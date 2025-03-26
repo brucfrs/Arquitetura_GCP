@@ -16,14 +16,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
 
-<b>FinOps (Otimização de Custos):</b></br>
-&nbsp; &nbsp; •	Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
-
-&nbsp; &nbsp; •	Usar instâncias Spot para workloads tolerantes a falhas.</br>
-
-&nbsp; &nbsp; •	Ajustar tamanhos de clusters para evitar alocação excessiva de recursos.</br>
-
-Para uma lista mais completa basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).
+<b>FinOps (Otimização de Custos):</b> Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda. Para uma lista mais completa basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).
 
 <b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
 
