@@ -24,7 +24,7 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <h3>2.2. Compute Engine</h3></br>
 
-Descrição: Máquinas virtuais para cargas de trabalho personalizadas.</br>
+<b>Descrição:</b> Máquinas virtuais para cargas de trabalho personalizadas.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -38,7 +38,7 @@ Alta Disponibilidade: Distribuir instâncias entre múltiplas zonas.</br>
 
 <h3>2.3. Cloud SQL</h3></br>
 
-Descrição: Banco de dados gerenciado (PostgreSQL, MySQL, SQL Server).</br>
+<b>Descrição:</b> Banco de dados gerenciado (PostgreSQL, MySQL, SQL Server).</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -52,7 +52,7 @@ Alta Disponibilidade: Ativar alta disponibilidade (HA) e replicação entre regi
 
 <h3>2.4. Cloud Storage</h3></br>
 
-Descrição: Armazenamento de objetos escalável.</br>
+<b>Descrição:</b> Armazenamento de objetos escalável.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -66,7 +66,7 @@ Alta Disponibilidade: Ativar replicação multi-região para redundância.</br>
 
 <h3>2.5. Filestore</h3></br>
 
-Descrição: Serviço de armazenamento de arquivos compartilhado via NFS.</br>
+<b>Descrição:</b> Serviço de armazenamento de arquivos compartilhado via NFS.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -80,7 +80,7 @@ Alta Disponibilidade: Configurar redundância e snapshots.</br>
 
 <h3>2.6. Cloud Load Balancing</h3></br>
 
-Descrição: Balanceador de carga global para distribuir tráfego.</br>
+<b>Descrição:</b> Balanceador de carga global para distribuir tráfego.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -94,7 +94,7 @@ Alta Disponibilidade: Implementar em múltiplas regiões para failover automáti
 
 <h3>2.7. Cloud Armor</h3></br>
 
-Descrição: Firewall para proteger contra ataques DDoS e outras ameaças.</br>
+<b>Descrição:</b> Firewall para proteger contra ataques DDoS e outras ameaças.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -108,7 +108,7 @@ Alta Disponibilidade: Configuração integrada ao Load Balancing para proteção
 
 <h3>2.8. Cloud VPN</h3></br>
 
-Descrição: Conexão segura entre on-premises e Google Cloud.</br>
+<b>Descrição:</b> Conexão segura entre on-premises e Google Cloud.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -122,7 +122,7 @@ Alta Disponibilidade: Implementar failover automático.</br>
 
 <h3>2.9. Cloud DNS</h3></br>
 
-Descrição: Serviço gerenciado de DNS.</br>
+<b>Descrição:</b> Serviço gerenciado de DNS.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -136,7 +136,7 @@ Alta Disponibilidade: Distribuição em múltiplas regiões para redundância.</
 
 <h3>2.10. Cloud Key Management (KMS)</h3></br>
 
-Descrição: Gerenciamento de chaves de criptografia.</br>
+<b>Descrição:</b> Gerenciamento de chaves de criptografia.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -150,7 +150,7 @@ Alta Disponibilidade: Replicação automática das chaves.</br>
 
 <h3>2.11. Cloud Monitoring e Logging</h3></br>
 
-Descrição: Solução de monitoramento e análise de logs.</br>
+<b>Descrição:</b> Solução de monitoramento e análise de logs.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -164,7 +164,7 @@ Alta Disponibilidade: Alertas em tempo real para evitar falhas.</br>
 
 <h3>2.12. BigQuery</h3></br>
 
-Descrição: Data warehouse serverless para análise de grandes volumes de dados.</br>
+<b>Descrição:</b> Data warehouse serverless para análise de grandes volumes de dados.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
@@ -178,7 +178,7 @@ Alta Disponibilidade: Serviço totalmente gerenciado e redundante.</br>
 
 <h3>2.13. DevOps - Terraform e GitHub</h3></br>
 
-Descrição: Infraestrutura como Código (IaC) e versionamento.</br>
+<b>Descrição:</b> Infraestrutura como Código (IaC) e versionamento.</br>
 
 <h4>Melhores Práticas:</h4></br>
 
