@@ -13,7 +13,17 @@ Boas práticas para otimização de custos na implementação de novos recursos 
 
 &nbsp; &nbsp; •	Consolidar workloads em menos nós para reduzir custos com instâncias.</br>
 
-&nbsp; &nbsp; •	Configurar escalonamento horizontal e vertical para máxima eficiência.</br></br>
+&nbsp; &nbsp; •	Configurar escalonamento horizontal e vertical para máxima eficiência.</br>
+
+&nbsp; &nbsp; •	Implementar autoscaler para reduzir custos em horários de baixa demanda.</br>
+
+&nbsp; &nbsp; •	Escolher regiões mais econômicas para hospedagem de clusters.</br>
+
+&nbsp; &nbsp; •	Compartilhar clusters entre múltiplos projetos para otimizar custos.</br>
+
+&nbsp; &nbsp; •	Utilizar armazenamento persistente apenas quando necessário.</br>
+
+&nbsp; &nbsp; •	Configurar políticas de ciclo de vida para remoção automática de recursos inativos.</br></br>
 
 <h3>2.2. Compute Engine</h3></br>
 
@@ -27,11 +37,23 @@ Boas práticas para otimização de custos na implementação de novos recursos 
 
 &nbsp; &nbsp; •	Aplicar descontos por uso contínuo (CUDs - Committed Use Discounts).</br>
 
-&nbsp; &nbsp; •	Migrar workloads para máquinas otimizadas para preço/desempenho.</br></br>
+&nbsp; &nbsp; •	Migrar workloads para máquinas otimizadas para preço/desempenho.</br>
+
+&nbsp; &nbsp; •	Reduzir tempo de execução de máquinas não essenciais.</br>
+
+&nbsp; &nbsp; •	Consolidar cargas de trabalho em menos instâncias.</br>
+
+&nbsp; &nbsp; •	Utilizar armazenamento temporário sempre que possível.</br>
+
+&nbsp; &nbsp; •	Revisar logs e monitoramento para eliminar desperdícios.</br>
+
+&nbsp; &nbsp; •	Programar desligamento de máquinas fora do horário comercial.</br></br>
 
 <h3>2.3. Cloud SQL</h3></br>
 
 <h4>Melhores Práticas:</h4></br>
+
+&nbsp; &nbsp; •	
 
 <h3>2.4. Cloud Storage</h3></br>
 
