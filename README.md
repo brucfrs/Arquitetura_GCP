@@ -1,6 +1,6 @@
 README.md - Visão geral do projeto.
 
-[infra.md](infra.md) - Documentação da infraestrutura.
+[Documentação da infraestrutura](infra.md)
 
 finops.md - Estratégia de FinOps.
 
