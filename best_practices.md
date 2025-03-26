@@ -1,29 +1,97 @@
-<h1><center>Melhores práticas de segurança, performance, escalabilidade e alta disponibilidade  (Otimização de Custos)</center></h1></br>
+<h1><center>Melhores práticas de segurança, performance, escalabilidade e alta disponibilidade</center></h1></br>
 Práticas para serem aplicadas na implementação de novos recursos do Google Cloud e melhorias em cima de recursos já existentes, desde que não afete outros critérios com maior prioridade.</center></h1></br>
 
 <h3>2.1. Google Kubernetes Engine (GKE)</h3></br>
 
 <h4>Melhores Práticas:</h4></br>
 
-&nbsp; &nbsp; •	Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br>
+<b>Performance:</b></br>
 
-&nbsp; &nbsp; •	Usar instâncias Spot para workloads tolerantes a falhas.</br>
+&nbsp; &nbsp; •	Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
 
-&nbsp; &nbsp; •	Ajustar tamanhos de clusters para evitar alocação excessiva de recursos.</br>
+&nbsp; &nbsp; •	Implementar caching local para reduzir latência de armazenamento.</br>
 
-&nbsp; &nbsp; •	Consolidar workloads em menos nós para reduzir custos com instâncias.</br>
+&nbsp; &nbsp; •	Configurar liveness e readiness probes para melhorar a resposta do sistema.</br>
 
-&nbsp; &nbsp; •	Configurar escalonamento horizontal e vertical para máxima eficiência.</br>
+&nbsp; &nbsp; •	Usar afinidade de pods para distribuir cargas de forma eficiente.</br>
 
-&nbsp; &nbsp; •	Implementar autoscaler para reduzir custos em horários de baixa demanda.</br>
+&nbsp; &nbsp; •	Monitorar métricas de pods para ajuste fino do escalonamento.</br>
 
-&nbsp; &nbsp; •	Escolher regiões mais econômicas para hospedagem de clusters.</br>
+&nbsp; &nbsp; •	Adotar Istio para controle de tráfego e segurança entre serviços.</br>
 
-&nbsp; &nbsp; •	Compartilhar clusters entre múltiplos projetos para otimizar custos.</br>
+&nbsp; &nbsp; •	Utilizar sidecar containers para otimizar comunicação interna.</br>
 
-&nbsp; &nbsp; •	Utilizar armazenamento persistente apenas quando necessário.</br>
+&nbsp; &nbsp; •	Implementar limitação de CPU e memória para evitar sobrecarga.</br>
 
-&nbsp; &nbsp; •	Configurar políticas de ciclo de vida para remoção automática de recursos inativos.</br></br>
+&nbsp; &nbsp; •	Aplicar compactação em logs para reduzir consumo de armazenamento.</br>
+
+&nbsp; &nbsp; •	Utilizar balanceamento de carga interno para melhor distribuição de tráfego.</br></br>
+
+<b>Escalabilidade:</b></br>
+
+&nbsp; &nbsp; •	Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
+
+&nbsp; &nbsp; •	Configurar Cluster Autoscaler para expandir e reduzir nós conforme necessário.</br>
+
+&nbsp; &nbsp; •	Utilizar multi-zona para distribuição automática de cargas.</br>
+
+&nbsp; &nbsp; •	Aplicar Istio para balanceamento de tráfego entre serviços.</br>
+
+&nbsp; &nbsp; •	Monitorar métricas de uso e ajustar limites de recursos automaticamente.</br>
+
+&nbsp; &nbsp; •	Criar múltiplos namespaces para organizar serviços escaláveis.</br>
+
+&nbsp; &nbsp; •	Adotar arquitetura baseada em microservices para facilitar escalabilidade.</br>
+
+&nbsp; &nbsp; •	Implementar filas de mensagens para distribuir carga de trabalho.</br>
+
+&nbsp; &nbsp; •	Utilizar sidecars para otimizar comunicação entre aplicações.</br>
+
+&nbsp; &nbsp; •	Aplicar cache distribuído para reduzir consumo de recursos.</br></br>
+
+<b>Alta Disponibilidade:</b></br>
+
+&nbsp; &nbsp; •	Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
+
+&nbsp; &nbsp; •	Utilizar estratégias de failover para manter a continuidade de serviços.</br>
+
+&nbsp; &nbsp; •	Implementar réplicas de pods para evitar pontos únicos de falha.</br>
+
+&nbsp; &nbsp; •	Aplicar balanceamento de carga para distribuir requisições uniformemente.</br>
+
+&nbsp; &nbsp; •	Monitorar logs e métricas para resposta rápida a falhas.</br>
+
+&nbsp; &nbsp; •	Usar backups automáticos para recuperação de dados.</br>
+
+&nbsp; &nbsp; •	Configurar DNS interno para comunicação resiliente entre serviços.</br>
+
+&nbsp; &nbsp; •	Implementar limitação de taxa para evitar sobrecarga.</br>
+
+&nbsp; &nbsp; •	Criar políticas de retry e fallback para serviços críticos.</br>
+
+&nbsp; &nbsp; •	Automatizar a detecção e recuperação de falhas.</br></br>
+
+<b>Segurança:</b></br>
+
+&nbsp; &nbsp; •	Habilitar autenticação e autorização via IAM e RBAC.</br>
+
+&nbsp; &nbsp; •	Usar VPC Service Controls para limitar acessos externos.</br>
+
+&nbsp; &nbsp; •	Configurar políticas de segurança para restringir comunicação entre serviços.</br>
+
+&nbsp; &nbsp; •	Implementar certificados SSL/TLS para proteger a comunicação.</br>
+
+&nbsp; &nbsp; •	Ativar autenticação baseada em identidade (OIDC, JWT).</br>
+
+&nbsp; &nbsp; •	Usar namespaces para isolar cargas de trabalho.</br>
+
+&nbsp; &nbsp; •	Monitorar atividades suspeitas com Cloud Audit Logs.</br>
+
+&nbsp; &nbsp; •	Aplicar políticas de segurança no Kubernetes Network Policy.</br>
+
+&nbsp; &nbsp; •	Configurar acesso mínimo necessário para cada serviço.</br>
+
+&nbsp; &nbsp; •	Implementar rotação automática de credenciais.</br></br>
 
 <h3>2.2. Compute Engine</h3></br>
 
