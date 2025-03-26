@@ -36,7 +36,7 @@ Escalabilidade: Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
 
 Alta Disponibilidade: Distribuir instâncias entre múltiplas zonas.</br>
 
-2.3. Cloud SQL</br>
+<h3>2.3. Cloud SQL</h3></br>
 
 Descrição: Banco de dados gerenciado (PostgreSQL, MySQL, SQL Server).</br>
 
@@ -50,7 +50,7 @@ Escalabilidade: Configurar réplicas de leitura para melhorar desempenho.</br>
 
 Alta Disponibilidade: Ativar alta disponibilidade (HA) e replicação entre regiões.</br>
 
-2.4. Cloud Storage</br>
+<h3>2.4. Cloud Storage</h3></br>
 
 Descrição: Armazenamento de objetos escalável.</br>
 
@@ -64,7 +64,7 @@ Escalabilidade: Armazenamento ilimitado e replicação automática.</br>
 
 Alta Disponibilidade: Ativar replicação multi-região para redundância.</br>
 
-2.5. Filestore</br>
+<h3>2.5. Filestore</h3></br>
 
 Descrição: Serviço de armazenamento de arquivos compartilhado via NFS.</br>
 
@@ -78,7 +78,7 @@ Escalabilidade: Expandir armazenamento dinamicamente.</br>
 
 Alta Disponibilidade: Configurar redundância e snapshots.</br>
 
-2.6. Cloud Load Balancing</br>
+<h3>2.6. Cloud Load Balancing</h3></br>
 
 Descrição: Balanceador de carga global para distribuir tráfego.</br>
 
@@ -92,7 +92,7 @@ Escalabilidade: Configurar autoscaling para suportar variações de tráfego.</b
 
 Alta Disponibilidade: Implementar em múltiplas regiões para failover automático.</br>
 
-2.7. Cloud Armor</br>
+<h3>2.7. Cloud Armor</h3></br>
 
 Descrição: Firewall para proteger contra ataques DDoS e outras ameaças.</br>
 
@@ -106,7 +106,7 @@ Escalabilidade: Proteção automática contra tráfego malicioso em grande escal
 
 Alta Disponibilidade: Configuração integrada ao Load Balancing para proteção contínua.</br>
 
-2.8. Cloud VPN</br>
+<h3>2.8. Cloud VPN</h3></br>
 
 Descrição: Conexão segura entre on-premises e Google Cloud.</br>
 
@@ -120,7 +120,7 @@ Escalabilidade: Configurar múltiplos túneis para maior resiliência.</br>
 
 Alta Disponibilidade: Implementar failover automático.</br>
 
-2.9. Cloud DNS</br>
+<h3>2.9. Cloud DNS</h3></br>
 
 Descrição: Serviço gerenciado de DNS.</br>
 
@@ -134,7 +134,7 @@ Escalabilidade: Suporta alto volume de consultas automaticamente.</br>
 
 Alta Disponibilidade: Distribuição em múltiplas regiões para redundância.</br>
 
-2.10. Cloud Key Management (KMS)</br>
+<h3>2.10. Cloud Key Management (KMS)</h3></br>
 
 Descrição: Gerenciamento de chaves de criptografia.</br>
 
@@ -148,7 +148,7 @@ Escalabilidade: Suporte a múltiplas chaves e políticas de rotação automatiza
 
 Alta Disponibilidade: Replicação automática das chaves.</br>
 
-2.11. Cloud Monitoring e Logging</br>
+<h3>2.11. Cloud Monitoring e Logging</h3></br>
 
 Descrição: Solução de monitoramento e análise de logs.</br>
 
@@ -162,7 +162,7 @@ Escalabilidade: Ajustar métricas para monitoramento automático.</br>
 
 Alta Disponibilidade: Alertas em tempo real para evitar falhas.</br>
 
-2.12. BigQuery</br>
+<h3>2.12. BigQuery</h3></br>
 
 Descrição: Data warehouse serverless para análise de grandes volumes de dados.</br>
 
@@ -176,7 +176,7 @@ Escalabilidade: Processamento massivo de dados sem necessidade de provisionament
 
 Alta Disponibilidade: Serviço totalmente gerenciado e redundante.</br>
 
-2.13. DevOps - Terraform e GitHub</br>
+<h3>2.13. DevOps - Terraform e GitHub</h3></br>
 
 Descrição: Infraestrutura como Código (IaC) e versionamento.</br>
 
