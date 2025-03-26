@@ -1,1 +1,1 @@
-[Diagrama de infraestrutura](GCP - Infra.png)
+![Diagrama de infraestrutura](GCP - Infra.png)
