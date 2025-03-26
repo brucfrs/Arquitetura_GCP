@@ -44,9 +44,7 @@ Para uma lista mais completa basta clicar [aqui](finops.md).
 
 &nbsp; &nbsp; •	Implementar desligamento automático de instâncias ociosas.</br>
 
-&nbsp; &nbsp; •	Aplicar descontos por uso contínuo (CUDs - Committed Use Discounts).</br>
-
-&nbsp; &nbsp; •	Migrar workloads para máquinas otimizadas para preço/desempenho.</br>
+Para uma lista mais completa basta clicar [aqui](finops.md).
 
 <b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
 
