@@ -1,1 +1,4 @@
-![Diagrama de infraestrutura](GCP - Infra.png)
+<img src="GCP - Infra.png" alt="Minha imagem legal" />
+
+
+
