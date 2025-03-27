@@ -47,10 +47,7 @@ A implementação do Terraform segue práticas recomendadas para garantir segura
 ✅ Uso de Workspaces para gerenciar ambientes distintos (PRD, DR, DEV).</br>
 
 📌 Exemplo de Estrutura de Diretórios:</br>
-'''
-pgsql
-Copy
-Edit
+```
 /terraform  
   ├── modules/  
   │   ├── network/  
@@ -61,7 +58,7 @@ Edit
   │   ├── dev/  
   │   ├── prd/  
   │   ├── dr/  
-  '''
+```
   </br>
 
 <h4>2.2 Segurança no Terraform</h4></br>
