@@ -5,6 +5,7 @@
 A arquitetura apresentada utiliza uma VPC híbrida com comunicação entre On-Premises e Google Cloud, garantindo redundância, escalabilidade e segurança.
 
 <h4>1.1 VPCs e Subnets</h4></br>
+
 Duas VPCs distintas (PRD e DR) para segmentação de tráfego e isolamento de falhas.</br>
 
 <b>Regiões e zonas:</br></b>
