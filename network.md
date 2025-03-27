@@ -26,7 +26,7 @@ Duas VPCs distintas (PRD e DR) para segmentação de tráfego e isolamento de fa
 
 &nbsp; &nbsp; •	Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.</br>
 
-&nbsp; &nbsp; •	Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.</br>
+&nbsp; &nbsp; •	Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.</br></br>
 
 <h3>2. Segurança e Controle de Tráfego</h3></br>
 
@@ -52,7 +52,7 @@ Restrições de entrada e saída baseadas em princípios de menor privilégio.</
 
 &nbsp; &nbsp; •	Aplicação de políticas de firewall baseadas em identidade (IAM) para granularidade.</br>
 
-&nbsp; &nbsp; •	Negação explícita para portas e protocolos não utilizados.</br>
+&nbsp; &nbsp; •	Negação explícita para portas e protocolos não utilizados.</br></br>
 
 <h3>3. Proteção Perimetral com Cloud Armor</h3></br>
 
@@ -72,7 +72,7 @@ O Cloud Armor está configurado no Load Balancer Global, garantindo proteção c
 
 &nbsp; &nbsp; • Integração com Cloud Logging e Monitoring para auditorias em tempo real.</br>
 
-&nbsp; &nbsp; • Redundância de mitigação utilizando múltiplos filtros e listas de controle.</br>
+&nbsp; &nbsp; • Redundância de mitigação utilizando múltiplos filtros e listas de controle.</br></br>
 
 <h3>4. Balanceamento de Carga e Alta Disponibilidade</h3></br>
 
@@ -98,7 +98,7 @@ O Cloud Load Balancing (Global) distribui o tráfego entre as regiões PRD e DR,
 
 &nbsp; &nbsp; • GKE e Compute Engine configurados com Managed Instance Groups (MIGs) Autoscaling On.</br>
 
-&nbsp; &nbsp; • Health checks ativos para redirecionamento de tráfego em caso de falhas.</br>
+&nbsp; &nbsp; • Health checks ativos para redirecionamento de tráfego em caso de falhas.</br></br>
 
 <h3>5. Comunicação Segura entre On-Premises e Google Cloud</h3></br>
 
@@ -118,7 +118,7 @@ A arquitetura utiliza Cloud VPN com High Availability (HA) para conectar On-Prem
 
 &nbsp; &nbsp; • Cloud Router configurado para otimizar o roteamento de tráfego.</br>
 
-&nbsp; &nbsp; • Cloud VPN HA ativado para garantir conexão resiliente.</br>
+&nbsp; &nbsp; • Cloud VPN HA ativado para garantir conexão resiliente.</br></br>
 
 <h3>6. Monitoramento e Logging</h3></br>
 
@@ -138,13 +138,13 @@ A arquitetura inclui Cloud Monitoring e Cloud Logging, fornecendo telemetria em 
 
 &nbsp; &nbsp; • Coleta centralizada de logs para auditoria de segurança.</br>
 
-&nbsp; &nbsp; • Dashboard de métricas para rastrear disponibilidade de serviços.</br>
+&nbsp; &nbsp; • Dashboard de métricas para rastrear disponibilidade de serviços.</br></br>
 
 <h3>7. Disaster Recovery e Alta Disponibilidade</h3></br>
 
 A arquitetura inclui um ambiente DR (Disaster Recovery) em us-west1, garantindo continuidade dos serviços em caso de falha na região PRD.</br>
 
-<h4>Principais estratégias:</h4>h4>
+<h4>Principais estratégias:</h4>
 
 &nbsp; &nbsp; • Cloud SQL HA com replicação assíncrona entre regiões.</br>
 
