@@ -14,17 +14,13 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
-
-&nbsp;    • <b>Performance:</b> Utilizar nós otimizados para cargas de trabalho, como máquinas N2 ou C2.</br>
-
-&nbsp;    • <b>Escalabilidade:</b> Utilizar HPA (Horizontal Pod Autoscaler) para escalar pods dinamicamente.</br>
-
-&nbsp;    • <b>Alta Disponibilidade:</b> Configurar GKE em múltiplas zonas e regiões para resiliência contra falhas.</br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
 &nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> basta clicar [aqui](best_practices.md#21-google-kubernetes-engine-gke).</br>
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Habilitar escalonamento automático de nós para ajustar recursos conforme a demanda.</br> 
+<h4>FinOps (Otimização de Custos):</h4>
+
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
 &nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).</br>
 
