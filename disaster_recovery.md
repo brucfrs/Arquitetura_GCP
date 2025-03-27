@@ -96,7 +96,7 @@ A arquitetura utiliza estratégias híbridas de backup para garantir a proteçã
 
 Para garantir que o plano de DR funcione conforme esperado, são realizados testes regulares de recuperação.</br>
 
-<h4>4.1 Teste de Recuperação do Banco de Dados</h4></br></br>
+<h4>4.1 Teste de Recuperação do Banco de Dados</h4></br>
 
 &nbsp; &nbsp; •	Restaurar um backup recente do Cloud SQL na região DR.</br>
 
