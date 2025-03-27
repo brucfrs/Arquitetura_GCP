@@ -102,7 +102,7 @@ variable "network_name" {
 
 A automação é estendida para o GitHub Actions, garantindo integração contínua (CI/CD) para infraestrutura.</br>
 
-<h4>3.1 Pipeline de CI/CD no GitHub Actions</h4></br>
+<h4>3.1 Pipeline de CI/CD no GitHub Actions</h4>
 
 <h4>Automação do Terraform no GitHub:</h4>
 
@@ -143,7 +143,7 @@ jobs:
 
 O Terraform é utilizado para provisionar toda a arquitetura da infraestrutura, incluindo:</br>
 
-<h4>4.1 Rede (VPC, Subnets e Firewalls)</h4></br>
+<h4>4.1 Rede (VPC, Subnets e Firewalls)</h4>
 
 <h4>Exemplo de provisionamento de VPC:</h4>
 
@@ -155,7 +155,7 @@ resource "google_compute_network" "vpc" {
 ```
 </br>
 
-<h4>4.2 Compute Engine e GKE</h4></br>
+<h4>4.2 Compute Engine e GKE</h4>
 
 <h4>Provisionamento de máquinas virtuais e Kubernetes:</h4>
 
@@ -168,7 +168,7 @@ resource "google_container_cluster" "gke_cluster" {
 ```
 </br>
 
-<h4>4.3 Cloud SQL com HA</h4></br>
+<h4>4.3 Cloud SQL com HA</h4>
 
 <h4>Banco de dados gerenciado com replicação:</h4>
 
