@@ -20,11 +20,14 @@ Duas VPCs distintas (PRD e DR) para segmentação de tráfego e isolamento de fa
 
 &nbsp; &nbsp; •	Subnet Privada → Hospeda os serviços internos e bancos de dados, isolados da internet.
 
-Melhores práticas seguidas: ✅ Uso de Private Services Access para serviços internos sem exposição direta.
-✅ Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.
-✅ Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.
+<h4>Melhores práticas seguidas:</h4>
+
+&nbsp; &nbsp; •	Uso de Private Services Access e Private Google Access para serviços internos sem exposição direta.
+&nbsp; &nbsp; •	Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.
+&nbsp; &nbsp; •	Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.
 
 <h3>2. Segurança e Controle de Tráfego</h3></br>
+
 A configuração segue Zero Trust e Defesa em Profundidade, garantindo proteção de perímetro e segmentação de redes.
 
 <h4>2.1 Firewall Rules</h4></br>
