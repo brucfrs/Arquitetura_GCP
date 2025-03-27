@@ -1,5 +1,5 @@
 <h1><center>Melhores práticas de segurança, performance, escalabilidade e alta disponibilidade</center></h1></br>
-Práticas para serem aplicadas na implementação de novos recursos do Google Cloud e melhorias em cima de recursos já existentes, desde que não afete outros critérios com maior prioridade.</center></h1></br>
+Práticas para serem aplicadas na implementação de novos recursos do Google Cloud e melhorias em cima de recursos já existentes, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa.</center></h1></br>
 
 <h3>2.1. Google Kubernetes Engine (GKE)</h3></br>
 
