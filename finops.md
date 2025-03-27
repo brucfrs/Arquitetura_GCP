@@ -1,6 +1,6 @@
 <h1><center>FinOps (Otimização de Custos)</center></h1></br>
 Boas práticas para otimização de custos na implementação de novos recursos do Google Cloud e melhorias em cima de recursos já existentes, desde que não afete outros critérios com maior prioridade e esteja em conformidade com a empresa.</br></br>
-Toda a analise de custo sera feita através de um Dashboad criado no Looker, onde ele consome os dados no BigQuery. Para alimentar o BigQuery será habilidado a exportação de dados da conta de faturamento de forma automatizada. O Dashboad será criado com divisões, onde será exibidos os maiores ofensores na categoria de projetos, recursos e SKU's, facilitando o entendimento e analisando de forma direta o qual e o porque do custo elevado para futuras melhorias e correções.</br>
+A análise de custos será realizada por meio de um dashboard desenvolvido no Looker, que consumirá os dados armazenados no BigQuery. Para alimentar o BigQuery, será habilitada a exportação automatizada dos dados da conta de faturamento. O dashboard será estruturado em seções, exibindo os principais responsáveis pelos custos elevados, categorizados por projetos, recursos e SKUs. Essa abordagem facilitará a compreensão dos fatores que impactam os gastos, permitindo análises diretas e auxiliando na identificação de oportunidades de otimização e correções futuras.</br>
 
 <h3>2.1. Google Kubernetes Engine (GKE)</h3></br>
 
