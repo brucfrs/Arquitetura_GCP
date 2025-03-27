@@ -202,6 +202,8 @@ A equipe de operações utiliza dashboards personalizados no Cloud Monitoring pa
 
 <h4>Melhores práticas seguidas:</h4>
 
-&nbsp; &nbsp; •	Dashboards customizados para diferentes equipes (Infra, DevOps, Segurança).
-&nbsp; &nbsp; •	Visualizações de métricas históricas para análise de tendências.
-&nbsp; &nbsp; •	Insights baseados em AI/ML para predição de falhas.
+&nbsp; &nbsp; •	Dashboards customizados para diferentes equipes (Infra, DevOps, Segurança).</br>
+
+&nbsp; &nbsp; •	Visualizações de métricas históricas para análise de tendências.</br>
+
+&nbsp; &nbsp; •	Insights baseados em AI/ML para predição de falhas.</br>
