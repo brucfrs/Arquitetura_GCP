@@ -7,17 +7,17 @@ A arquitetura apresentada utiliza uma VPC híbrida com comunicação entre On-Pr
 <h4>1.1 VPCs e Subnets</h4></br>
 Duas VPCs distintas (PRD e DR) para segmentação de tráfego e isolamento de falhas.</br>
 
-Regiões e zonas:</br>
+<b>Regiões e zonas:</br></b>
 
-PRD → us-east1</br>
+&nbsp; &nbsp; •	PRD → us-east1</br>
 
-DR → us-west1</br>
+&nbsp; &nbsp; •	DR → us-west1</br>
 
-Sub-redes públicas e privadas em ambas as VPCs:
+<b>Sub-redes públicas e privadas em ambas as VPCs:</b>
 
-Subnet Pública → Para comunicação externa via Cloud NAT.
+&nbsp; &nbsp; •	Subnet Pública → Para comunicação externa via Cloud NAT.
 
-Subnet Privada → Hospeda os serviços internos e bancos de dados, isolados da internet.
+&nbsp; &nbsp; •	Subnet Privada → Hospeda os serviços internos e bancos de dados, isolados da internet.
 
 Melhores práticas seguidas: ✅ Uso de Private Services Access para serviços internos sem exposição direta.
 ✅ Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.
