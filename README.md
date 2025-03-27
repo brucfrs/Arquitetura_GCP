@@ -11,7 +11,7 @@ Este repositório contém a documentação detalhada da arquitetura de um projet
 [Estratégia de FinOps](finops.md)<br/>
   Monitoramento contínuo de custos, automação de provisionamento e escalabilidade eficiente.<br/>
 
-[Topologia de Rede](redes.md)<br/>
+[Topologia de Rede](network.md)<br/>
   Configuração de redes públicas e privadas, firewalls, Cloud Armor e Load Balancers.<br/>
 
 [Estratégia de Automação](automation.md)<br/>
