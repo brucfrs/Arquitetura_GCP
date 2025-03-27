@@ -1,6 +1,6 @@
 <h1><center>Estratégia de Monitoramento e Observabilidade no Google Cloud</center></h1></br>
 
-A arquitetura implementa um stack de monitoramento e observabilidade robusto, utilizando o Google Cloud Operations Suite, garantindo visibilidade, detecção proativa de falhas e resposta rápida a incidentes.</br>
+A arquitetura implementa um stack de monitoramento e observabilidade robusto, utilizando o Google Cloud Operations Suite, garantindo visibilidade, detecção proativa de falhas e resposta rápida a incidentes. Lembrando que poderá ser utilizada ferramentas terceiras caso já sejam utilizadas no dia a dia como Grafana, Prometheus e  Elastic Search</br>
 
 <h3>1. Objetivos do Monitoramento e Observabilidade</h3></br>
    
@@ -152,7 +152,7 @@ Alertas são configurados no Cloud Monitoring com base em:</br>
 
 &nbsp; &nbsp; •	Execução de playbooks automatizados para mitigação (ex: reiniciar instâncias, redirecionar tráfego).</br>
 
-&nbsp; &nbsp; •	Integração com PagerDuty e Slack para comunicação rápida.</br>
+&nbsp; &nbsp; •	Integração com ferramentas terceiras para comunicação rápida.</br>
 
 <h4>4.3 Resolução de Problemas e Auditoria</h4></br>
 
@@ -166,7 +166,7 @@ Alertas são configurados no Cloud Monitoring com base em:</br>
 
 <h4>Melhores práticas seguidas:</h4>
 
-&nbsp; &nbsp; •	Alertas configurados para eventos críticos com integração via Slack e PagerDuty.</br>
+&nbsp; &nbsp; •	Alertas configurados para eventos críticos com integração via ferramentas terceiras.</br>
 
 &nbsp; &nbsp; •	Playbooks automatizados para resposta rápida a incidentes.</br>
 
