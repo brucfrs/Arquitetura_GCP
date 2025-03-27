@@ -33,99 +33,117 @@ Duas VPCs distintas (PRD e DR) para segmentação de tráfego e isolamento de fa
 A configuração segue Zero Trust e Defesa em Profundidade, garantindo proteção de perímetro e segmentação de redes.
 
 <h4>2.1 Firewall Rules</h4></br>
-Restrições de entrada e saída baseadas em princípios de menor privilégio.
 
-Principais regras configuradas:
+Restrições de entrada e saída baseadas em princípios de menor privilégio.</br>
 
-Permitir acesso SSH/RDP apenas para administradores internos via Cloud IAM.
+</h4>Principais regras configuradas:</h4>
 
-Bloquear tráfego direto da internet para as instâncias privadas.
+&nbsp; &nbsp; •	Permitir acesso SSH/RDP apenas para administradores internos via Cloud IAM.</br>
 
-Permitir somente comunicação interna entre VPCs via VPC Peering.
+&nbsp; &nbsp; •	Bloquear tráfego direto da internet para as instâncias e Banco de Dados privados.</br>
 
-Regras explícitas de negação para tráfego suspeito.
+&nbsp; &nbsp; •	Permitir somente comunicação interna entre VPCs via VPC Peering.</br>
 
-Melhores práticas seguidas: ✅ Uso de Cloud IAM para gerenciar políticas de acesso.
-✅ Aplicação de políticas de firewall baseadas em identidade (IAM) para granularidade.
-✅ Negação explícita para portas e protocolos não utilizados.
+&nbsp; &nbsp; •	Regras explícitas de negação para tráfego suspeito.</br>
+
+<h4>Melhores práticas seguidas:</h4>
+
+&nbsp; &nbsp; •	Uso de Cloud IAM para gerenciar políticas de acesso.</br>
+&nbsp; &nbsp; •	Aplicação de políticas de firewall baseadas em identidade (IAM) para granularidade.</br>
+&nbsp; &nbsp; •	Negação explícita para portas e protocolos não utilizados.</br>
 
 <h3>3. Proteção Perimetral com Cloud Armor</h3></br>
-O Cloud Armor está configurado no Load Balancer Global, garantindo proteção contra ameaças DDoS e injeção de tráfego malicioso.
 
-Políticas de proteção ativadas:
+O Cloud Armor está configurado no Load Balancer Global, garantindo proteção contra ameaças DDoS e injeção de tráfego malicioso.</br>
 
-Bloqueio de IPs suspeitos (geolocalização).
+<h4>Políticas de proteção ativadas:</h4>
 
-Regras de mitigação contra ataques Layer 7 (Web Application Firewall - WAF).
+&nbsp; &nbsp; • Bloqueio de IPs suspeitos (geolocalização).</br>
 
-Regras personalizadas para bloquear scanners de vulnerabilidades.
+&nbsp; &nbsp; • Regras de mitigação contra ataques Layer 7 (Web Application Firewall - WAF).</br>
 
-Melhores práticas seguidas: ✅ Aplicação de políticas baseadas em comportamento para tráfego legítimo.
-✅ Integração com Cloud Logging e Monitoring para auditorias em tempo real.
-✅ Redundância de mitigação utilizando múltiplos filtros e listas de controle.
+&nbsp; &nbsp; • Regras personalizadas para bloquear scanners de vulnerabilidades.</br>
+
+<h4>Melhores práticas seguidas:</h4>
+
+&nbsp; &nbsp; • Aplicação de políticas baseadas em comportamento para tráfego legítimo.</br>
+&nbsp; &nbsp; • Integração com Cloud Logging e Monitoring para auditorias em tempo real.</br>
+&nbsp; &nbsp; • Redundância de mitigação utilizando múltiplos filtros e listas de controle.</br>
 
 <h3>4. Balanceamento de Carga e Alta Disponibilidade</h3></br>
-O Cloud Load Balancing (Global) distribui o tráfego entre as regiões PRD e DR, garantindo failover automático.
 
-Tipos de Load Balancer utilizados:
+O Cloud Load Balancing (Global) distribui o tráfego entre as regiões PRD e DR, garantindo failover automático.</br>
 
-Global HTTP(S) Load Balancer → Para balancear o tráfego de usuários externos.
+<h4>Tipos de Load Balancer utilizados:</h4>
 
-Internal Load Balancer → Distribuição de tráfego entre Compute Engine, GKE e Cloud SQL.
+&nbsp; &nbsp; • Global HTTP(S) Load Balancer → Para balancear o tráfego de usuários externos.</br>
 
-Configurações avançadas:
+&nbsp; &nbsp; • Internal Load Balancer → Distribuição de tráfego entre Compute Engine, GKE e Cloud SQL.</br>
 
-SSL/TLS ativo com Managed Certificates.
+<h4>Configurações avançadas:</h4>
 
-Regras de roteamento inteligente → Direcionamento baseado em proximidade e regras de afinidade.
+&nbsp; &nbsp; • SSL/TLS ativo com Managed Certificates.</br>
 
-Configuração de failover para recuperação em DR.
+&nbsp; &nbsp; • Regras de roteamento inteligente → Direcionamento baseado em proximidade e regras de afinidade.</br>
 
-Melhores práticas seguidas: ✅ Escalonamento automático de backend services.
-✅ GKE e Compute Engine configurados com Managed Instance Groups (MIGs) Autoscaling On.
-✅ Health checks ativos para redirecionamento de tráfego em caso de falhas.
+&nbsp; &nbsp; • Configuração de failover para recuperação em DR.</br>
+
+<h4>Melhores práticas seguidas:</h4> 
+
+&nbsp; &nbsp; • Escalonamento automático de backend services.</br>
+&nbsp; &nbsp; • GKE e Compute Engine configurados com Managed Instance Groups (MIGs) Autoscaling On.</br>
+&nbsp; &nbsp; • Health checks ativos para redirecionamento de tráfego em caso de falhas.
 
 <h3>5. Comunicação Segura entre On-Premises e Google Cloud</h3></br>
-A arquitetura utiliza Cloud VPN com High Availability (HA) para conectar On-Premises ao GCP.
 
-Características da configuração:
+A arquitetura utiliza Cloud VPN com High Availability (HA) para conectar On-Premises ao GCP.</br>
 
-Túnel IPsec criptografado para tráfego seguro.
+<h4>Características da configuração:</h4>
 
-Redundância com múltiplas VPNs garantindo failover automático.
+&nbsp; &nbsp; • Túnel IPsec criptografado para tráfego seguro.</br>
 
-Rotas dinâmicas via Cloud Router para otimizar conectividade.
+&nbsp; &nbsp; • Redundância com múltiplas VPNs garantindo failover automático.</br>
 
-Melhores práticas seguidas: ✅ Criptografia AES-256 para comunicação segura.
-✅ Cloud Router configurado para otimizar o roteamento de tráfego.
-✅ Cloud VPN HA ativado para garantir conexão resiliente.
+&nbsp; &nbsp; • Rotas dinâmicas via Cloud Router para otimizar conectividade.</br>
+
+<h4>Melhores práticas seguidas:</h4>
+
+&nbsp; &nbsp; • Criptografia AES-256 para comunicação segura.</br>
+&nbsp; &nbsp; • Cloud Router configurado para otimizar o roteamento de tráfego.</br>
+&nbsp; &nbsp; • Cloud VPN HA ativado para garantir conexão resiliente.</br>
 
 <h3>6. Monitoramento e Logging</h3></br>
-A arquitetura inclui Cloud Monitoring e Cloud Logging, fornecendo telemetria em tempo real.
 
-Componentes ativados:
+A arquitetura inclui Cloud Monitoring e Cloud Logging, fornecendo telemetria em tempo real.</br>
 
-Cloud Logging → Coleta logs de tráfego, firewalls e auditoria.
+<h4>Componentes ativados:</h4>
 
-Cloud Monitoring → Alertas para eventos críticos e métricas de desempenho.
+&nbsp; &nbsp; • Cloud Logging → Coleta logs de tráfego, firewalls e auditoria.</br>
 
-BigQuery e Looker → Para análises avançadas.
+&nbsp; &nbsp; • Cloud Monitoring → Alertas para eventos críticos e métricas de desempenho.</br>
 
-Melhores práticas seguidas: ✅ Alertas em tempo real para detecção de anomalias.
-✅ Coleta centralizada de logs para auditoria de segurança.
-✅ Dashboard de métricas para rastrear disponibilidade de serviços.
+&nbsp; &nbsp; • BigQuery e Looker → Para análises avançadas.</br>
+
+<h4>Melhores práticas seguidas:</h4>
+
+&nbsp; &nbsp; • Alertas em tempo real para detecção de anomalias.</br>
+&nbsp; &nbsp; • Coleta centralizada de logs para auditoria de segurança.</br>
+&nbsp; &nbsp; • Dashboard de métricas para rastrear disponibilidade de serviços.</br>
 
 <h3>7. Disaster Recovery e Alta Disponibilidade</h3></br>
-A arquitetura inclui um ambiente DR (Disaster Recovery) em us-west1, garantindo continuidade dos serviços em caso de falha na região PRD.
 
-Principais estratégias:
+A arquitetura inclui um ambiente DR (Disaster Recovery) em us-west1, garantindo continuidade dos serviços em caso de falha na região PRD.</br>
 
-Cloud SQL HA com replicação assíncrona entre regiões.
+<h4>Principais estratégias:</h4>h4>
 
-Filestore com persistência de dados replicada.
+&nbsp; &nbsp; • Cloud SQL HA com replicação assíncrona entre regiões.</br>
 
-Failover automático via Load Balancer Global.
+&nbsp; &nbsp; • Filestore com persistência de dados replicada.</br>
 
-Melhores práticas seguidas: ✅ Cross-region replication para recuperação de banco de dados.
-✅ Failover automático com balanceamento de carga inteligente.
-✅ Infraestrutura as Code (IaC) via Terraform para recriação rápida dos serviços.
+&nbsp; &nbsp; • Failover automático via Load Balancer Global.</br>
+
+<h4>Melhores práticas seguidas:</h4>
+
+&nbsp; &nbsp; • Cross-region replication para recuperação de banco de dados.</br>
+&nbsp; &nbsp; • Failover automático com balanceamento de carga inteligente.</br>
+&nbsp; &nbsp; • Infraestrutura as Code (IaC) via Terraform para recriação rápida dos serviços.</br>
