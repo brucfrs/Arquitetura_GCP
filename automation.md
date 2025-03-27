@@ -32,7 +32,7 @@ A estratégia de automação segue o modelo GitOps, onde todo provisionamento e 
 
 &nbsp; &nbsp; •	Registros de alterações mantidos no GitHub.</br>
 
-&nbsp; &nbsp; •	Log centralizado de execuções para auditoria.</br>
+&nbsp; &nbsp; •	Log centralizado de execuções para auditoria.</br></br>
 
 <h3>2. Boas Práticas na Automação com Terraform</h3></br>
 
@@ -62,7 +62,7 @@ Exemplo de Estrutura de Diretórios:</br>
 ```
   </br>
 
-<h4>2.2 Segurança no Terraform</h4></br>
+<h4>2.2 Segurança no Terraform</h4>
 
 <h4>Melhores práticas aplicadas:</h4>
 
@@ -74,7 +74,7 @@ Exemplo de Estrutura de Diretórios:</br>
 
 &nbsp; &nbsp; •	Least Privilege (Princípio do Menor Privilégio) no IAM para evitar acesso excessivo.</br>
 
-<h4>2.3 Escalabilidade e Reutilização</h4></br>
+<h4>2.3 Escalabilidade e Reutilização</h4>
 
 Uso de variáveis dinâmicas para tornar os módulos mais reutilizáveis:</br>
 
@@ -182,7 +182,7 @@ resource "google_sql_database_instance" "sql_instance" {
   }
 }
 ```
-</br>
+</br></br>
 
 <h3>5. Benefícios da Automação com Terraform e GitHub</h3></br>
 
