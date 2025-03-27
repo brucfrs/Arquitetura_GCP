@@ -16,13 +16,13 @@ Este documento apresenta os recursos do Google Cloud utilizados na arquitetura a
 
 O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> basta clicar [aqui](best_practices.md#21-google-kubernetes-engine-gke).</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#21-google-kubernetes-engine-gke).</br>
 
 <h4>FinOps (Otimização de Custos):</h4>
 
 Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#21-google-kubernetes-engine-gke).</br>
 
 <h3>2.2. Compute Engine</h3></br>
 
@@ -30,17 +30,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Escolher tipos de máquinas adequados (E2 para economia, N2/C2 para cargas pesadas).</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#22-compute-engine).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Configurar Managed Instance Groups (MIGs) com autoscaling.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Distribuir instâncias entre múltiplas zonas.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b>Utilizar instâncias preemptivas ou Spot VMs para workloads tolerantes a falhas.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#22-compute-engine).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#22-compute-engine).</br>
 
 <h3>2.3. Cloud SQL</h3></br>
 
@@ -48,17 +46,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Ajustar tamanho das instâncias com base na carga de trabalho.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#23-cloud-sql).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Configurar réplicas de leitura para melhorar desempenho.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Ativar alta disponibilidade (HA) e replicação entre regiões.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Utilizar escalonamento automático de armazenamento e backups automáticos.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#23-cloud-sql).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#23-cloud-sql).</br>
 
 <h3>2.4. Cloud Storage</h3></br>
 
@@ -66,17 +62,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Usar classes de armazenamento adequadas (Standard para acesso frequente, Nearline para acesso esporádico, Coldline para backup).</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#24-cloud-storage).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Armazenamento ilimitado e replicação automática.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Ativar replicação multi-região para redundância.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Configurar regras de ciclo de vida para migração automática de classes de armazenamento.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#24-cloud-storage).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#24-cloud-storage).</br>
 
 <h3>2.5. Filestore</h3></br>
 
@@ -84,17 +78,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Utilizar classes de alto desempenho (Enterprise para baixa latência).</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#25-filestore).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Expandir armazenamento dinamicamente.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Configurar redundância e snapshots.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Escolher classes Standard para cargas menos exigentes.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#25-filestore).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#25-filestore).</br>
 
 <h3>2.6. Cloud Load Balancing</h3></br>
 
@@ -102,17 +94,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Usar balanceamento global para menor latência.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#26-cloud-load-balancing).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Configurar autoscaling para suportar variações de tráfego.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Implementar em múltiplas regiões para failover automático.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Configurar regras de roteamento eficientes para evitar consumo excessivo.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#26-cloud-load-balancing).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#26-cloud-load-balancing).</br>
 
 <h3>2.7. Cloud Armor</h3></br>
 
@@ -120,17 +110,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Configurar regras para mitigar ataques sem impactar usuários legítimos.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#27-cloud-armor).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Proteção automática contra tráfego malicioso em grande escala.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Configuração integrada ao Load Balancing para proteção contínua.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Aplicar políticas apenas onde necessário.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#27-cloud-armor).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#27-cloud-armor).</br>
 
 <h3>2.8. Cloud VPN</h3></br>
 
@@ -138,17 +126,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Usar VPN HA para maior largura de banda.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#28-cloud-vpn).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Configurar múltiplos túneis para maior resiliência.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Implementar failover automático.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Avaliar o uso de Interconnect para cargas pesadas.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#28-cloud-vpn).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#28-cloud-vpn).</br>
 
 <h3>2.9. Cloud DNS</h3></br>
 
@@ -156,17 +142,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Resolver DNS com baixa latência globalmente.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#29-cloud-dns).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Suporta alto volume de consultas automaticamente.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Distribuição em múltiplas regiões para redundância.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Utilizar registros TTL adequados para evitar consultas excessivas.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#29-cloud-dns).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#29-cloud-dns).</br>
 
 <h3>2.10. Cloud Key Management (KMS)</h3></br>
 
@@ -174,17 +158,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Integrar com serviços do Google Cloud para baixa latência.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#210-cloud-key-management-kms).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Suporte a múltiplas chaves e políticas de rotação automatizadas.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Replicação automática das chaves.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Usar chaves gerenciadas pelo Google para evitar custos extras.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#210-cloud-key-management-kms).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#210-cloud-key-management-kms).</br>
 
 <h3>2.11. Cloud Monitoring e Logging</h3></br>
 
@@ -192,17 +174,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Criar dashboards personalizados para insights em tempo real.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#211-cloud-monitoring-e-logging).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Ajustar métricas para monitoramento automático.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Alertas em tempo real para evitar falhas.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Configurar retenção de logs apenas pelo período necessário.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#211-cloud-monitoring-e-logging).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#211-cloud-monitoring-e-logging).</br>
 
 <h3>2.12. BigQuery</h3></br>
 
@@ -210,17 +190,15 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas dentro dos 6 pilares do Google Cloud Framework na implementação de novos recursos e melhorias em cima de recursos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Otimizar consultas usando partições e clustering.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#212-bigquery).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Processamento massivo de dados sem necessidade de provisionamento.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Serviço totalmente gerenciado e redundante.</br></br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do ambiente Google Cloud. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Google Cloud Framework para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Usar tabelas externas e modelos de preço adequados.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#212-bigquery).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#212-bigquery).</br>
 
 <h3>2.13. DevOps - Terraform e GitHub</h3></br>
 
@@ -228,14 +206,12 @@ Outro ponto muito importante é a questão de custos de recursos utilizados dent
 
 <h4>Melhores Práticas:</h4>
 
-&nbsp;    • <b>Segurança:</b> </br>
+O objetivo é aplicar o maximo de boas práticas fornecidas pelo Github e HashiCorp na implementação de novas esteiras DevOps e códicos Terraform e melhorias e esteiras e códicos já existentes em ambientes do Google Cloud, desde que não afete outros critérios com maior prioridade e que esteja em conformidade com a empresa. Essas práticas envolvem os assuntos <b>de Segurança, Performance, Escalabilidade e Alta Disponibilidade.</b></br>
 
-&nbsp;    • <b>Performance:</b> Automação de deploys para redução de tempo de provisionamento.</br>
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>boas praticas de segurança, performance, escalabilidade e alta disponibilidade</b> associada a este recurso basta clicar [aqui](best_practices.md#213-devops---terraform-e-github).</br>
 
-&nbsp;    • <b>Escalabilidade:</b> Infraestrutura definida como código, permitindo ajustes dinâmicos.</br>
+<h4>FinOps (Otimização de Custos):</h4>
 
-&nbsp;    • <b>Alta Disponibilidade:</b> Pipelines automatizados para recuperação rápida de falhas.</br>
+Outro ponto muito importante é a questão de custos de recursos utilizados dentro do Github e a forma de trabalho em cima da ferramenta Terraform da HashiCorp. O objetivo é também aplicar o maximo de boas práticas fornecidas pelo Github e HashiCorp para que possa trazer mais economia no dia a dia com a utilização de recursos dentro do projeto.
 
-&nbsp;    • <b>FinOps (Otimização de Custos):</b> Gerenciamento eficiente dos recursos provisionados.</br>
-
-&nbsp; &nbsp; Para uma lista mais completa basta clicar [aqui](finops.md#213-devops---terraform-e-github).
+&nbsp; &nbsp; &nbsp;Para uma lista mais completa sobre <b>otimização de custos</b> associada a este recurso basta clicar [aqui](finops.md#213-devops---terraform-e-github).</br>
