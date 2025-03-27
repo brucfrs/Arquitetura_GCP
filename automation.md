@@ -38,7 +38,7 @@ A estratégia de automação segue o modelo GitOps, onde todo provisionamento e 
 
 A implementação do Terraform segue práticas recomendadas para garantir segurança, modularidade e eficiência.</br>
 
-<h4>2.1 Estrutura Modularizada do Código Terraform</h4></br>
+<h4>2.1 Estrutura Modularizada do Código Terraform</h4>
 
 <h4>Separação por módulos:</h4>
 
