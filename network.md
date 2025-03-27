@@ -23,10 +23,10 @@ Melhores práticas seguidas: ✅ Uso de Private Services Access para serviços i
 ✅ Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.
 ✅ Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.
 
-2. Segurança e Controle de Tráfego
+<h3>2. Segurança e Controle de Tráfego</h3></br>
 A configuração segue Zero Trust e Defesa em Profundidade, garantindo proteção de perímetro e segmentação de redes.
 
-2.1 Firewall Rules
+<h4>2.1 Firewall Rules</h4></br>
 Restrições de entrada e saída baseadas em princípios de menor privilégio.
 
 Principais regras configuradas:
@@ -43,7 +43,7 @@ Melhores práticas seguidas: ✅ Uso de Cloud IAM para gerenciar políticas de a
 ✅ Aplicação de políticas de firewall baseadas em identidade (IAM) para granularidade.
 ✅ Negação explícita para portas e protocolos não utilizados.
 
-3. Proteção Perimetral com Cloud Armor
+<h3>3. Proteção Perimetral com Cloud Armor</h3></br>
 O Cloud Armor está configurado no Load Balancer Global, garantindo proteção contra ameaças DDoS e injeção de tráfego malicioso.
 
 Políticas de proteção ativadas:
@@ -58,7 +58,7 @@ Melhores práticas seguidas: ✅ Aplicação de políticas baseadas em comportam
 ✅ Integração com Cloud Logging e Monitoring para auditorias em tempo real.
 ✅ Redundância de mitigação utilizando múltiplos filtros e listas de controle.
 
-4. Balanceamento de Carga e Alta Disponibilidade
+<h3>4. Balanceamento de Carga e Alta Disponibilidade</h3></br>
 O Cloud Load Balancing (Global) distribui o tráfego entre as regiões PRD e DR, garantindo failover automático.
 
 Tipos de Load Balancer utilizados:
@@ -79,7 +79,7 @@ Melhores práticas seguidas: ✅ Escalonamento automático de backend services.
 ✅ GKE e Compute Engine configurados com Managed Instance Groups (MIGs) Autoscaling On.
 ✅ Health checks ativos para redirecionamento de tráfego em caso de falhas.
 
-5. Comunicação Segura entre On-Premises e Google Cloud
+<h3>5. Comunicação Segura entre On-Premises e Google Cloud</h3></br>
 A arquitetura utiliza Cloud VPN com High Availability (HA) para conectar On-Premises ao GCP.
 
 Características da configuração:
@@ -94,7 +94,7 @@ Melhores práticas seguidas: ✅ Criptografia AES-256 para comunicação segura.
 ✅ Cloud Router configurado para otimizar o roteamento de tráfego.
 ✅ Cloud VPN HA ativado para garantir conexão resiliente.
 
-6. Monitoramento e Logging
+<h3>6. Monitoramento e Logging</h3></br>
 A arquitetura inclui Cloud Monitoring e Cloud Logging, fornecendo telemetria em tempo real.
 
 Componentes ativados:
@@ -109,7 +109,7 @@ Melhores práticas seguidas: ✅ Alertas em tempo real para detecção de anomal
 ✅ Coleta centralizada de logs para auditoria de segurança.
 ✅ Dashboard de métricas para rastrear disponibilidade de serviços.
 
-7. Disaster Recovery e Alta Disponibilidade
+<h3>7. Disaster Recovery e Alta Disponibilidade</h3></br>
 A arquitetura inclui um ambiente DR (Disaster Recovery) em us-west1, garantindo continuidade dos serviços em caso de falha na região PRD.
 
 Principais estratégias:
