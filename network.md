@@ -36,7 +36,7 @@ A configuração segue Zero Trust e Defesa em Profundidade, garantindo proteçã
 
 Restrições de entrada e saída baseadas em princípios de menor privilégio.</br>
 
-</h4>Principais regras configuradas:</h4>
+<h4>Principais regras configuradas:</h4>
 
 &nbsp; &nbsp; •	Permitir acesso SSH/RDP apenas para administradores internos via Cloud IAM.</br>
 
@@ -49,7 +49,9 @@ Restrições de entrada e saída baseadas em princípios de menor privilégio.</
 <h4>Melhores práticas seguidas:</h4>
 
 &nbsp; &nbsp; •	Uso de Cloud IAM para gerenciar políticas de acesso.</br>
+
 &nbsp; &nbsp; •	Aplicação de políticas de firewall baseadas em identidade (IAM) para granularidade.</br>
+
 &nbsp; &nbsp; •	Negação explícita para portas e protocolos não utilizados.</br>
 
 <h3>3. Proteção Perimetral com Cloud Armor</h3></br>
@@ -67,7 +69,9 @@ O Cloud Armor está configurado no Load Balancer Global, garantindo proteção c
 <h4>Melhores práticas seguidas:</h4>
 
 &nbsp; &nbsp; • Aplicação de políticas baseadas em comportamento para tráfego legítimo.</br>
+
 &nbsp; &nbsp; • Integração com Cloud Logging e Monitoring para auditorias em tempo real.</br>
+
 &nbsp; &nbsp; • Redundância de mitigação utilizando múltiplos filtros e listas de controle.</br>
 
 <h3>4. Balanceamento de Carga e Alta Disponibilidade</h3></br>
@@ -91,8 +95,10 @@ O Cloud Load Balancing (Global) distribui o tráfego entre as regiões PRD e DR,
 <h4>Melhores práticas seguidas:</h4> 
 
 &nbsp; &nbsp; • Escalonamento automático de backend services.</br>
+
 &nbsp; &nbsp; • GKE e Compute Engine configurados com Managed Instance Groups (MIGs) Autoscaling On.</br>
-&nbsp; &nbsp; • Health checks ativos para redirecionamento de tráfego em caso de falhas.
+
+&nbsp; &nbsp; • Health checks ativos para redirecionamento de tráfego em caso de falhas.</br>
 
 <h3>5. Comunicação Segura entre On-Premises e Google Cloud</h3></br>
 
@@ -109,7 +115,9 @@ A arquitetura utiliza Cloud VPN com High Availability (HA) para conectar On-Prem
 <h4>Melhores práticas seguidas:</h4>
 
 &nbsp; &nbsp; • Criptografia AES-256 para comunicação segura.</br>
+
 &nbsp; &nbsp; • Cloud Router configurado para otimizar o roteamento de tráfego.</br>
+
 &nbsp; &nbsp; • Cloud VPN HA ativado para garantir conexão resiliente.</br>
 
 <h3>6. Monitoramento e Logging</h3></br>
@@ -127,7 +135,9 @@ A arquitetura inclui Cloud Monitoring e Cloud Logging, fornecendo telemetria em 
 <h4>Melhores práticas seguidas:</h4>
 
 &nbsp; &nbsp; • Alertas em tempo real para detecção de anomalias.</br>
+
 &nbsp; &nbsp; • Coleta centralizada de logs para auditoria de segurança.</br>
+
 &nbsp; &nbsp; • Dashboard de métricas para rastrear disponibilidade de serviços.</br>
 
 <h3>7. Disaster Recovery e Alta Disponibilidade</h3></br>
@@ -145,5 +155,7 @@ A arquitetura inclui um ambiente DR (Disaster Recovery) em us-west1, garantindo 
 <h4>Melhores práticas seguidas:</h4>
 
 &nbsp; &nbsp; • Cross-region replication para recuperação de banco de dados.</br>
+
 &nbsp; &nbsp; • Failover automático com balanceamento de carga inteligente.</br>
+
 &nbsp; &nbsp; • Infraestrutura as Code (IaC) via Terraform para recriação rápida dos serviços.</br>
