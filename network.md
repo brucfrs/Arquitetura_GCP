@@ -22,9 +22,11 @@ Duas VPCs distintas (PRD e DR) para segmentação de tráfego e isolamento de fa
 
 <h4>Melhores práticas seguidas:</h4>
 
-&nbsp; &nbsp; •	Uso de Private Services Access e Private Google Access para serviços internos sem exposição direta.
-&nbsp; &nbsp; •	Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.
-&nbsp; &nbsp; •	Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.
+&nbsp; &nbsp; •	Uso de Private Services Access e Private Google Access para serviços internos sem exposição direta.</br>
+
+&nbsp; &nbsp; •	Cloud NAT em subnets privadas para saída segura sem necessidade de IPs públicos.</br>
+
+&nbsp; &nbsp; •	Subnets distribuídas em múltiplas zonas dentro da região, garantindo alta disponibilidade.</br>
 
 <h3>2. Segurança e Controle de Tráfego</h3></br>
 
