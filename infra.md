@@ -2,7 +2,7 @@
 
 <h2>1. Introdução</h2></br>
 
-Este documento apresenta os recursos do Google Cloud utilizados na arquitetura apresentada na imagem e discute as melhores práticas para cada um em termos de performance, otimização de custos, escalabilidade e alta disponibilidade.</br>
+Este documento apresenta os recursos do Google Cloud utilizados na arquitetura apresentada na imagem e discute as melhores práticas para cada um em termos de performance, otimização de custos, escalabilidade e alta disponibilidade. Cada topico pode ser acessao atraves dos links relacionados em cada recurso descrito abaixo.</br>
 
 <img src="GCP - Infra.png" alt="Diagrama de infraestrutura" /></br>
 
